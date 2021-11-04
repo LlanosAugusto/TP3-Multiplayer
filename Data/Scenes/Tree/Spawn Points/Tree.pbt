@@ -1,16 +1,15 @@
 Name: "Spawn Points"
 RootId: 12325050865167333281
 Objects {
-  Id: 13783981925992532107
-  Name: "Spawn Point"
+  Id: 7127473499868316769
+  Name: "Spawn points"
   Transform {
     Location {
-      X: -385
+      X: 20
       Y: 6495
-      Z: -6515
+      Z: -7190
     }
     Rotation {
-      Yaw: 30.0000362
     }
     Scale {
       X: 1
@@ -19,6 +18,54 @@ Objects {
     }
   }
   ParentId: 12325050865167333281
+  ChildIds: 11593335663942533766
+  ChildIds: 13350700481584416469
+  ChildIds: 15072623138423642332
+  ChildIds: 6281812822274127486
+  ChildIds: 2846004712895223772
+  ChildIds: 7279559040868994804
+  ChildIds: 2893802101831211907
+  ChildIds: 9041328930252934471
+  ChildIds: 1529318033719379362
+  ChildIds: 2192543211023084523
+  ChildIds: 5946056742496721899
+  ChildIds: 2456185427673435383
+  ChildIds: 13460556879641419959
+  ChildIds: 8468959060495891204
+  ChildIds: 6253422730304508629
+  ChildIds: 13783981925992532107
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13783981925992532107
+  Name: "Spawn Point"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 30.0000401
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,12 +87,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: 30.0000267
+      Yaw: 30.0000324
     }
     Scale {
       X: 1
@@ -53,7 +97,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -75,12 +119,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: 30.0000191
+      Yaw: 30.0000229
     }
     Scale {
       X: 1
@@ -88,7 +129,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -110,12 +151,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: 30.0000095
+      Yaw: 30.0000134
     }
     Scale {
       X: 1
@@ -123,7 +161,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -145,12 +183,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -30
+      Yaw: -30.0000057
     }
     Scale {
       X: 1
@@ -158,7 +193,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -180,12 +215,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -30
+      Yaw: -30.0000057
     }
     Scale {
       X: 1
@@ -193,7 +225,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -215,12 +247,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -30
+      Yaw: -30.0000057
     }
     Scale {
       X: 1
@@ -228,7 +257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -250,12 +279,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -30
+      Yaw: -30.0000057
     }
     Scale {
       X: 1
@@ -263,7 +289,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -285,12 +311,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: 179.999969
+      Yaw: 179.999954
     }
     Scale {
       X: 1
@@ -298,7 +321,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -320,9 +343,6 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
       Yaw: 90.0000076
@@ -333,7 +353,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -355,12 +375,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -179.999969
+      Yaw: -179.999954
     }
     Scale {
       X: 1
@@ -368,7 +385,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -390,12 +407,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -90
+      Yaw: -89.9999924
     }
     Scale {
       X: 1
@@ -403,7 +417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -425,12 +439,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: 30.0000019
+      Yaw: 30.0000057
     }
     Scale {
       X: 1
@@ -438,7 +449,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -460,12 +471,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -120
+      Yaw: -120.000008
     }
     Scale {
       X: 1
@@ -473,7 +481,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -495,9 +503,6 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
       Yaw: 120.000008
@@ -508,7 +513,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -530,12 +535,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -385
-      Y: 6495
-      Z: -6515
     }
     Rotation {
-      Yaw: -30
+      Yaw: -30.0000057
     }
     Scale {
       X: 1
@@ -543,7 +545,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12325050865167333281
+  ParentId: 7127473499868316769
   UnregisteredParameters {
   }
   Collidable_v2 {

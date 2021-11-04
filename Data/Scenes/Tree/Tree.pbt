@@ -143,8 +143,8 @@ Objects {
   Name: "Portal VFX"
   Transform {
     Location {
-      X: -102.689438
-      Y: -86.1341629
+      X: -1629.97644
+      Y: -86.137085
       Z: -110
     }
     Rotation {
@@ -291,7 +291,7 @@ Objects {
   Transform {
     Location {
       X: 225
-      Y: 9160
+      Y: 7520
       Z: -6180
     }
     Rotation {
@@ -379,13 +379,13 @@ Objects {
     Location {
       X: -15
       Y: 5
-      Z: 1925
+      Z: 1960
     }
     Rotation {
     }
     Scale {
       X: 67.9
-      Y: 136.299973
+      Y: 103.684601
       Z: 1
     }
   }
@@ -433,7 +433,7 @@ Objects {
   Transform {
     Location {
       X: -25
-      Y: -6755
+      Y: -5175
       Z: 1035
     }
     Rotation {
@@ -490,8 +490,8 @@ Objects {
   Transform {
     Location {
       X: -25
-      Y: 6745
-      Z: 1035
+      Y: 5185
+      Z: 1010
     }
     Rotation {
       Pitch: 90
@@ -556,7 +556,7 @@ Objects {
     }
     Scale {
       X: 20
-      Y: 135.4
+      Y: 103
       Z: 1
     }
   }
@@ -604,7 +604,7 @@ Objects {
   Transform {
     Location {
       X: 3435
-      Y: 5
+      Y: -20
       Z: 1030
     }
     Rotation {
@@ -612,7 +612,7 @@ Objects {
     }
     Scale {
       X: 20
-      Y: 135.4
+      Y: 105.200035
       Z: 1
     }
   }
@@ -666,7 +666,7 @@ Objects {
     }
     Scale {
       X: 67.9
-      Y: 136.299973
+      Y: 103.684601
       Z: 1
     }
   }
