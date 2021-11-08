@@ -25,6 +25,7 @@ Objects {
   ChildIds: 3996111576914051141
   ChildIds: 12528995491070283024
   ChildIds: 1140290195684722757
+  ChildIds: 1887923450694343115
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,53 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1887923450694343115
+  Name: "Bannister Single Post"
+  Transform {
+    Location {
+      X: -355
+      Y: 4210
+      Z: -7295
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.4
+      Y: 5.4
+      Z: 5.4
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9233511346064888703
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
