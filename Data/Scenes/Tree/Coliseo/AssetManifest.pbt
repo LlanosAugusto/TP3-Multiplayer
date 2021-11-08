@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3722419759708884904
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 2102772057339980212
   Name: "Sci-fi Base Capsule 01 Mid"
   PlatformAssetType: 1

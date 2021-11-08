@@ -9,14 +9,25 @@ Assets {
       Overrides {
         Name: "color_rust"
         Color {
-          R: 0.700000048
-          B: 0.0139068617
+          R: 0.139999986
           A: 1
         }
       }
       Overrides {
         Name: "rust_amount"
-        Float: 0.21
+        Float: 0.271630287
+      }
+      Overrides {
+        Name: "gradient_shift"
+        Float: 0.5
+      }
+      Overrides {
+        Name: "gradient_falloff"
+        Float: 0.5
+      }
+      Overrides {
+        Name: "roughness_multiplier"
+        Float: 0.711786628
       }
     }
     Assets {
