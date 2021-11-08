@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15339912083390956808
-  Name: "Brick Multicolor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_multicolor_old_001_uv"
-  }
-}
-Assets {
   Id: 12098248425628261283
   Name: "Glass 01 (no distortion)"
   PlatformAssetType: 2
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 9233511346064888703
-  Name: "Bannister Single Post"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bannister_post_001"
   }
 }
 Assets {

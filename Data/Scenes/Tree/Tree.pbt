@@ -23,9 +23,6 @@ Objects {
   ChildIds: 4720045729775485291
   ChildIds: 14938121668204558948
   ChildIds: 3996111576914051141
-  ChildIds: 12528995491070283024
-  ChildIds: 1140290195684722757
-  ChildIds: 1887923450694343115
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,147 +35,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 1887923450694343115
-  Name: "Bannister Single Post"
-  Transform {
-    Location {
-      X: -355
-      Y: 4210
-      Z: -7295
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5.4
-      Y: 5.4
-      Z: 5.4
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9233511346064888703
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 1140290195684722757
-  Name: "Bannister Single Post"
-  Transform {
-    Location {
-      X: -355
-      Y: 3780
-      Z: -7295
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5.4
-      Y: 5.4
-      Z: 5.4
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9233511346064888703
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 12528995491070283024
-  Name: "Bannister Single Post"
-  Transform {
-    Location {
-      X: -355
-      Y: 3025
-      Z: -7295
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5.4
-      Y: 5.4
-      Z: 5.4
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9233511346064888703
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
   }
 }
 Objects {
@@ -819,7 +675,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 15339912083390956808
+        Id: 16584977929974742038
       }
     }
   }
