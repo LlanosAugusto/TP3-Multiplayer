@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15339912083390956808
+  Name: "Brick Multicolor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_multicolor_old_001_uv"
+  }
+}
+Assets {
   Id: 12098248425628261283
   Name: "Glass 01 (no distortion)"
   PlatformAssetType: 2
