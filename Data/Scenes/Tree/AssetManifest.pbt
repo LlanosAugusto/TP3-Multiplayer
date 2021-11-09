@@ -116,6 +116,24 @@ Assets {
   }
 }
 Assets {
+  Id: 2040447038920224663
+  Name: "Frame Large Outside Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tray9_OuterCorner"
+  }
+}
+Assets {
+  Id: 1829889468253897753
+  Name: "Frame Extra Large Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tray_XtraLong"
+  }
+}
+Assets {
   Id: 746033247183905453
   Name: "Metal Diamond Plates 02"
   PlatformAssetType: 2
