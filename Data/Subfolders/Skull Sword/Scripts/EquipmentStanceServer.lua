@@ -1,5 +1,5 @@
 --[[
-Copyright 2019 Manticore Games, Inc. 
+Copyright 2020 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -16,35 +16,29 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 
 -- Internal custom properties
-local ABGS = require(script:GetCustomProperty("API"))
-local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
-
--- User exposed properties
-local REQUIRED_PLAYERS = COMPONENT_ROOT:GetCustomProperty("RequiredPlayers")
-local COUNTDOWN_TIME = COMPONENT_ROOT:GetCustomProperty("CountdownTime")
-
--- Check user properties
-if REQUIRED_PLAYERS < 8 then
-    warn("RequiredPlayers must be positive")
-    REQUIRED_PLAYERS = 8
+local EQUIPMENT = script:FindAncestorByType('Equipment')
+if not EQUIPMENT:IsA('Equipment') then
+    error(script.name .. " should be part of Equipment object hierarchy.")
 end
 
-if COUNTDOWN_TIME < 0.0 then
-    warn("CountdownTime must be non-negative")
-    COUNTDOWN_TIME = 0.0
+-- User Exposed Variables
+local EQUIPMENT_STANCE = EQUIPMENT:GetCustomProperty("EquipmentStance")
+
+-- Internal variables
+local originalStance = "unarmed_stance"
+
+-- nil OnEquipped(Equipment, Player)
+function OnEquipped(equipment, player)
+    if EQUIPMENT_STANCE then
+        player.animationStance = EQUIPMENT_STANCE
+    end
 end
 
--- nil Tick(float)
--- Handles setting a timer in the lobby game state when there are enough players in the game
-function Tick(deltaTime)
-	if not ABGS.IsGameStateManagerRegistered() then
-		return
-	end
-
-	if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY and ABGS.GetTimeRemainingInState() == nil then
-		local players = Game.GetPlayers()
-		if #players >= REQUIRED_PLAYERS then
-			ABGS.SetTimeRemainingInState(COUNTDOWN_TIME)
-		end
-	end
+-- nil OnUnequipped(Equipment, Player)
+function OnUnequipped(equipment, player)
+    player.animationStance = originalStance
 end
+
+-- Initialize
+EQUIPMENT.equippedEvent:Connect(OnEquipped)
+EQUIPMENT.unequippedEvent:Connect(OnUnequipped)

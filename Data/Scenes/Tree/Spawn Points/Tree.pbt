@@ -55,6 +55,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1627.53601
+      Y: -5174.00879
+      Z: 7540
     }
     Rotation {
       Yaw: 30.0000401
@@ -78,7 +81,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 16
     PlayerScaleMultiplier: 1
   }
 }
@@ -87,6 +90,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1226.83655
+      Y: -5226.93
+      Z: 7540
     }
     Rotation {
       Yaw: 30.0000324
@@ -110,7 +116,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 15
     PlayerScaleMultiplier: 1
   }
 }
@@ -119,6 +125,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1798.61719
+      Y: -5291.27344
+      Z: 7540
     }
     Rotation {
       Yaw: 30.0000229
@@ -142,7 +151,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 14
     PlayerScaleMultiplier: 1
   }
 }
@@ -151,6 +160,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1161.58057
+      Y: -5337.59326
+      Z: 7540
     }
     Rotation {
       Yaw: 30.0000134
@@ -174,7 +186,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 13
     PlayerScaleMultiplier: 1
   }
 }
@@ -183,9 +195,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1696.92114
+      Y: -5555.97656
+      Z: 7540
     }
     Rotation {
-      Yaw: -30.0000057
+      Yaw: -30
     }
     Scale {
       X: 1
@@ -206,7 +221,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 12
     PlayerScaleMultiplier: 1
   }
 }
@@ -215,9 +230,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1458.89502
+      Y: -6687.29395
+      Z: 7540
     }
     Rotation {
-      Yaw: -30.0000057
+      Yaw: -30
     }
     Scale {
       X: 1
@@ -238,7 +256,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 11
     PlayerScaleMultiplier: 1
   }
 }
@@ -247,9 +265,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1202.24243
+      Y: -6148.14795
+      Z: 7540
     }
     Rotation {
-      Yaw: -30.0000057
+      Yaw: -30
     }
     Scale {
       X: 1
@@ -270,7 +291,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 10
     PlayerScaleMultiplier: 1
   }
 }
@@ -279,9 +300,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1358.64771
+      Y: -7167.38086
+      Z: 7540
     }
     Rotation {
-      Yaw: -30.0000057
+      Yaw: -30
     }
     Scale {
       X: 1
@@ -302,7 +326,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 9
     PlayerScaleMultiplier: 1
   }
 }
@@ -311,6 +335,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1331.28967
+      Y: -5438.57715
+      Z: 7540
     }
     Rotation {
       Yaw: 179.999954
@@ -334,7 +361,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 8
     PlayerScaleMultiplier: 1
   }
 }
@@ -343,6 +370,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 2834.59033
+      Y: -5626.68311
+      Z: 7540
     }
     Rotation {
       Yaw: 90.0000076
@@ -366,7 +396,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 7
     PlayerScaleMultiplier: 1
   }
 }
@@ -375,6 +405,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 2135.729
+      Y: -5698.54248
+      Z: 7540
     }
     Rotation {
       Yaw: -179.999954
@@ -398,7 +431,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 6
     PlayerScaleMultiplier: 1
   }
 }
@@ -407,9 +440,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 2561.93
+      Y: -6364.36328
+      Z: 7540
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -430,7 +466,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 5
     PlayerScaleMultiplier: 1
   }
 }
@@ -439,9 +475,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 1009.53076
+      Y: -5694.88281
+      Z: 7540
     }
     Rotation {
-      Yaw: 30.0000057
+      Yaw: 29.9999886
     }
     Scale {
       X: 1
@@ -462,7 +501,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 4
     PlayerScaleMultiplier: 1
   }
 }
@@ -471,9 +510,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 4475.93262
+      Y: -5058.9209
+      Z: 7432.10449
     }
     Rotation {
-      Yaw: -120.000008
+      Yaw: -120
     }
     Scale {
       X: 1
@@ -494,7 +536,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 3
     PlayerScaleMultiplier: 1
   }
 }
@@ -503,6 +545,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 4691.86426
+      Y: -7552.16455
+      Z: 7424.01123
     }
     Rotation {
       Yaw: 120.000008
@@ -526,7 +571,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }

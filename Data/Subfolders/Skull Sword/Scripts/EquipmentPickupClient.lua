@@ -1,5 +1,5 @@
 --[[
-Copyright 2019 Manticore Games, Inc. 
+Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -15,36 +15,36 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER I
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
+--[[
+    Custom pickup script adds additional features to pickup functionality such as
+    pickup sound and enabling trigger collision on equipment unequipped event.
+ ]]
+
 -- Internal custom properties
-local ABGS = require(script:GetCustomProperty("API"))
-local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
-
--- User exposed properties
-local REQUIRED_PLAYERS = COMPONENT_ROOT:GetCustomProperty("RequiredPlayers")
-local COUNTDOWN_TIME = COMPONENT_ROOT:GetCustomProperty("CountdownTime")
-
--- Check user properties
-if REQUIRED_PLAYERS < 8 then
-    warn("RequiredPlayers must be positive")
-    REQUIRED_PLAYERS = 8
+local EQUIPMENT = script:FindAncestorByType('Equipment')
+if not EQUIPMENT:IsA('Equipment') then
+    error(script.name .. " should be part of Equipment object hierarchy.")
 end
 
-if COUNTDOWN_TIME < 0.0 then
-    warn("CountdownTime must be non-negative")
-    COUNTDOWN_TIME = 0.0
+-- Exposed variables --
+local PICKUP_SOUND = EQUIPMENT:GetCustomProperty("PickupSound")
+
+-- Internal variables --
+local DEFAULT_LIFESPAN = 1
+
+-- nil OnEquipped(Equipment)
+function OnEquipped(equipment, player)
+
+    -- Spawn a pickup sound when a player picks up the weapon
+    if PICKUP_SOUND then
+        local pickupSound = World.SpawnAsset(PICKUP_SOUND, {position = equipment:GetWorldPosition()})
+
+        -- Set a default lifespan if the pickup sound template has 0 lifeSpan
+        if pickupSound.lifeSpan == 0 then
+            pickupSound.lifeSpan = DEFAULT_LIFESPAN
+        end
+    end
 end
 
--- nil Tick(float)
--- Handles setting a timer in the lobby game state when there are enough players in the game
-function Tick(deltaTime)
-	if not ABGS.IsGameStateManagerRegistered() then
-		return
-	end
-
-	if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY and ABGS.GetTimeRemainingInState() == nil then
-		local players = Game.GetPlayers()
-		if #players >= REQUIRED_PLAYERS then
-			ABGS.SetTimeRemainingInState(COUNTDOWN_TIME)
-		end
-	end
-end
+-- Initialize
+EQUIPMENT.equippedEvent:Connect(OnEquipped)

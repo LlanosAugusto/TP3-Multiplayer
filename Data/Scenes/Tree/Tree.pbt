@@ -18,11 +18,9 @@ Objects {
   ChildIds: 4855480006497290740
   ChildIds: 15544222329710426362
   ChildIds: 1832166441183768636
-  ChildIds: 7415541714806504102
   ChildIds: 18407107926840569230
   ChildIds: 4720045729775485291
   ChildIds: 14938121668204558948
-  ChildIds: 3996111576914051141
   ChildIds: 15108284420374816691
   ChildIds: 3237347846292864168
   ChildIds: 15139379610793633754
@@ -30,7 +28,7 @@ Objects {
   ChildIds: 1057020358997314952
   ChildIds: 9319182101825064930
   ChildIds: 15060364710483588798
-  ChildIds: 4685499890619728787
+  ChildIds: 14499462073904954586
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,49 +44,37 @@ Objects {
   }
 }
 Objects {
-  Id: 4685499890619728787
-  Name: "Animated Neon Sign - Skull"
+  Id: 14499462073904954586
+  Name: "SkullSword1"
   Transform {
-    Location {
-      X: 2100
-      Y: 7520
-      Z: -6180
-    }
-    Rotation {
-    }
     Scale {
-      X: 8.90000153
-      Y: 2.3
-      Z: 5.20000029
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17790630395545298871
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1433159917167177382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullSword1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1950
+            Y: -950
+            Z: 50
+          }
+        }
       }
-      BoundsScale: 1
+    }
+    TemplateAsset {
+      Id: 15379634910855395385
     }
   }
 }
@@ -250,8 +236,8 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: -240
-      Y: -620
+      X: -150
+      Y: -550
       Z: 50
     }
     Rotation {
@@ -318,8 +304,8 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: 639.999878
-      Y: -169.999756
+      X: 500
+      Y: -100
       Z: 50
     }
     Rotation {
@@ -386,12 +372,12 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: -640
+      X: -550
       Y: 150
       Z: 50
     }
     Rotation {
-      Yaw: 95
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -454,8 +440,8 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: 240
-      Y: 600
+      X: 150
+      Y: 500
       Z: 50
     }
     Rotation {
@@ -517,261 +503,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3996111576914051141
-  Name: "Portal To A Location"
-  Transform {
-    Location {
-      X: 170
-      Y: 9215
-      Z: -6780
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 16014566141562766642
-  ChildIds: 4317866045570284405
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 3996111576914051141
-    SubobjectId: 12614167284714683440
-    InstanceId: 11388614402224393246
-    TemplateId: 11333007519260447272
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 4317866045570284405
-  Name: "MoveToLocationPoint"
-  Transform {
-    Location {
-      X: -9214.88
-      Y: 199.975586
-      Z: 7050
-    }
-    Rotation {
-      Yaw: -100
-    }
-    Scale {
-      X: 1.620983
-      Y: 1.620983
-      Z: 1.620983
-    }
-  }
-  ParentId: 3996111576914051141
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3908766552658389863
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      TeamInt: 1
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4317866045570284405
-    SubobjectId: 11788075628528633600
-    InstanceId: 11388614402224393246
-    TemplateId: 11333007519260447272
-  }
-}
-Objects {
-  Id: 16014566141562766642
-  Name: "Portal VFX"
-  Transform {
-    Location {
-      X: -1629.97644
-      Y: -86.137085
-      Z: -110
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.635782838
-      Y: 0.635782838
-      Z: 0.635782838
-    }
-  }
-  ParentId: 3996111576914051141
-  ChildIds: 18008539723563689272
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6677237403455816226
-    }
-    TeamSettings {
-    }
-  }
-  InstanceHistory {
-    SelfId: 16014566141562766642
-    SubobjectId: 5063355568464640327
-    InstanceId: 11388614402224393246
-    TemplateId: 11333007519260447272
-  }
-}
-Objects {
-  Id: 18008539723563689272
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 6.5514245
-      Y: -19.3516827
-      Z: 2.24644828
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.942900181
-      Y: 7.99977112
-      Z: 8.40461636
-    }
-  }
-  ParentId: 16014566141562766642
-  ChildIds: 1083699130739189050
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 18008539723563689272
-    SubobjectId: 7030298691915880781
-    InstanceId: 11388614402224393246
-    TemplateId: 11333007519260447272
-  }
-}
-Objects {
-  Id: 1083699130739189050
-  Name: "MovePlayerToLocationTrigger"
-  Transform {
-    Location {
-      X: -387.53833
-      Y: 182.62088
-      Z: -8.04443264
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.217346311
-      Y: 0.217346311
-      Z: 0.0797859
-    }
-  }
-  ParentId: 18008539723563689272
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:MoveToLocationPoint"
-      ObjectReference {
-        SelfId: 4317866045570284405
-      }
-    }
-    Overrides {
-      Name: "cs:hideCubeOnLoad"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:playVfxSfxOnPortalTriggered"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SpawnedVFXSFXPortal"
-      AssetReference {
-        Id: 7141882958353199793
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 2346978525451093053
-    }
-  }
-  InstanceHistory {
-    SelfId: 1083699130739189050
-    SubobjectId: 10912677647860865359
-    InstanceId: 11388614402224393246
-    TemplateId: 11333007519260447272
-  }
-}
-Objects {
   Id: 14938121668204558948
   Name: "Animated Neon Sign - Skull"
   Transform {
     Location {
       X: 225
       Y: 7520
-      Z: -6180
+      Z: -6050
     }
     Rotation {
     }
@@ -1217,52 +955,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Coliseo"
-  }
-}
-Objects {
-  Id: 7415541714806504102
-  Name: "Advanced Sword"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1550651346007304081
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Sword"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2580
-            Y: 1365
-            Z: 130
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15775079625870837992
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 40
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6204478625803559951
-    }
   }
 }
 Objects {
