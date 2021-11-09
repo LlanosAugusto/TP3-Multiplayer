@@ -8,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16161440358440285178
-  Name: "Metal Vent Duct Square 01"
+  Id: 17223340170193496391
+  Name: "Rubber Tiles 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_urb_vent_duct_square_001_uv_ref"
+    AssetId: "mi_scf_rubber_panels_002_uv"
   }
 }
 Assets {
@@ -59,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
+  }
+}
+Assets {
+  Id: 7997001326019201543
+  Name: "Metal Greebles 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_greebles_003_uv_ref"
   }
 }
 Assets {
