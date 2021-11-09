@@ -30,6 +30,7 @@ Objects {
   ChildIds: 1057020358997314952
   ChildIds: 9319182101825064930
   ChildIds: 15060364710483588798
+  ChildIds: 4685499890619728787
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -42,6 +43,53 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4685499890619728787
+  Name: "Animated Neon Sign - Skull"
+  Transform {
+    Location {
+      X: 2100
+      Y: 7520
+      Z: -6180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 8.90000153
+      Y: 2.3
+      Z: 5.20000029
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17790630395545298871
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
