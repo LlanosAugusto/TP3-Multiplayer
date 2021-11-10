@@ -16,3 +16,12 @@ Assets {
     AssetId: "fxmi_basic_hologram"
   }
 }
+Assets {
+  Id: 1973162831758460705
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
+  }
+}

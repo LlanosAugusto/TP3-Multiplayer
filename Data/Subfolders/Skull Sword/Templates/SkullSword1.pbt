@@ -201,7 +201,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 35
+            Float: 10
           }
           Overrides {
             Name: "cs:Hitbox"
@@ -316,7 +316,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 40
+            Float: 10
           }
           Overrides {
             Name: "cs:Hitbox"

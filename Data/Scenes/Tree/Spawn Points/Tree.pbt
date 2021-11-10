@@ -55,8 +55,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1627.53601
-      Y: -5174.00879
+      X: -4056.9917
+      Y: -9306.88477
       Z: 7540
     }
     Rotation {
@@ -90,9 +90,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1226.83655
-      Y: -5226.93
-      Z: 7540
+      X: -1487.14246
+      Y: -11280.0264
+      Z: 7320.44824
     }
     Rotation {
       Yaw: 30.0000324
@@ -125,9 +125,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1798.61719
-      Y: -5291.27344
-      Z: 7540
+      X: 1721.78149
+      Y: -11073.75
+      Z: 7439.04
     }
     Rotation {
       Yaw: 30.0000229
@@ -160,9 +160,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1161.58057
-      Y: -5337.59326
-      Z: 7540
+      X: 4139.92383
+      Y: -9105.03711
+      Z: 7400.64
     }
     Rotation {
       Yaw: 30.0000134
@@ -195,9 +195,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1696.92114
-      Y: -5555.97656
-      Z: 7540
+      X: -3989.34473
+      Y: -4035.85303
+      Z: 7452.87793
     }
     Rotation {
       Yaw: -30
@@ -230,9 +230,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1458.89502
-      Y: -6687.29395
-      Z: 7540
+      X: 1127.40039
+      Y: -1858.94385
+      Z: 7456.17383
     }
     Rotation {
       Yaw: -30
@@ -265,9 +265,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1202.24243
-      Y: -6148.14795
-      Z: 7540
+      X: -4739.24414
+      Y: -5451.68652
+      Z: 7429.56934
     }
     Rotation {
       Yaw: -30
@@ -300,9 +300,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1358.64771
-      Y: -7167.38086
-      Z: 7540
+      X: 3007.31836
+      Y: -10333.2578
+      Z: 7413.92334
     }
     Rotation {
       Yaw: -30
@@ -335,8 +335,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1331.28967
-      Y: -5438.57715
+      X: -2990.52026
+      Y: -2944.48877
       Z: 7540
     }
     Rotation {
@@ -407,7 +407,7 @@ Objects {
     Location {
       X: 1155
       Y: -1795
-      Z: 7540
+      Z: 7488.55273
     }
     Rotation {
       Yaw: -179.999954

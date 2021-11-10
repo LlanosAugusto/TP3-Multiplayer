@@ -246,6 +246,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -310,6 +316,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -378,6 +390,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -442,6 +460,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -510,6 +534,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -574,6 +604,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -642,6 +678,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -706,6 +748,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -774,6 +822,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -838,6 +892,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -906,6 +966,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -970,6 +1036,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -1038,6 +1110,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -1102,6 +1180,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
@@ -1170,6 +1254,12 @@ Objects {
         Id: 10533485151639874819
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -1234,6 +1324,12 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10533485151639874819
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1973162831758460705
       }
     }
   }
