@@ -25,23 +25,12 @@ Objects {
   ChildIds: 3237347846292864168
   ChildIds: 15139379610793633754
   ChildIds: 8474559186860044457
-  ChildIds: 1057020358997314952
   ChildIds: 9319182101825064930
   ChildIds: 15060364710483588798
   ChildIds: 14499462073904954586
   ChildIds: 5029865049909322928
   ChildIds: 13886356575482611159
-  ChildIds: 13910927606950263616
-  ChildIds: 3072006002873286232
-  ChildIds: 15261047386103735773
-  ChildIds: 18045083300492648688
-  ChildIds: 7807379266861450452
-  ChildIds: 18318186413792285673
-  ChildIds: 17656396095627765274
-  ChildIds: 17616083615601182699
-  ChildIds: 12443870826498091331
-  ChildIds: 11014636343636680564
-  ChildIds: 7014918871802483178
+  ChildIds: 15427633907745165394
   ChildIds: 14042928437544582418
   ChildIds: 7648656013069215951
   ChildIds: 6347208575240015867
@@ -58,68 +47,7 @@ Objects {
   ChildIds: 9217573043873835814
   ChildIds: 754425201922070342
   ChildIds: 752314020301621030
-  ChildIds: 11159941697048687798
-  ChildIds: 10910172318143011418
-  ChildIds: 2137682073285021905
-  ChildIds: 16341680215586089761
-  ChildIds: 16426586410603107728
-  ChildIds: 17055770491297256049
-  ChildIds: 11990046190160660357
-  ChildIds: 8039399129548558064
-  ChildIds: 15221231321457701478
-  ChildIds: 1892388780992018334
-  ChildIds: 2401921607682715829
-  ChildIds: 13122601623851769559
-  ChildIds: 17880823856003694604
-  ChildIds: 11208805672153008161
-  ChildIds: 18211512198672473164
-  ChildIds: 2243731917234781500
-  ChildIds: 7120489052842241904
-  ChildIds: 1697761798530149837
-  ChildIds: 17248171410022826328
-  ChildIds: 5084148568183273331
-  ChildIds: 9073819009621836377
-  ChildIds: 13225256569482245679
-  ChildIds: 18218067366663171249
-  ChildIds: 14509096661751939774
-  ChildIds: 10193199761566692442
-  ChildIds: 8042537651071218857
-  ChildIds: 10381298065639426172
-  ChildIds: 14450547464240105841
-  ChildIds: 8438158054824544557
-  ChildIds: 3793982144578488743
-  ChildIds: 10700815934939240719
-  ChildIds: 6990864368970749251
-  ChildIds: 6063721566306387638
-  ChildIds: 4195922054336563902
-  ChildIds: 16250901752502707531
-  ChildIds: 908637135764940025
-  ChildIds: 8186912378644223730
-  ChildIds: 10815054146871740334
-  ChildIds: 5451009549724578096
-  ChildIds: 206857179748617720
-  ChildIds: 8177680072846753487
-  ChildIds: 14876465120681577949
-  ChildIds: 7108281921518733948
-  ChildIds: 6500107681541397953
-  ChildIds: 17134199706457799883
-  ChildIds: 17903090329367652326
-  ChildIds: 5982849799174625950
-  ChildIds: 14567581207629641373
-  ChildIds: 14305513264113742127
   ChildIds: 12743816339044706750
-  ChildIds: 17141004091661176764
-  ChildIds: 11821271072064816327
-  ChildIds: 11852107105005100328
-  ChildIds: 11175495060797453928
-  ChildIds: 15693313636837934568
-  ChildIds: 18338939721227702058
-  ChildIds: 3128293303702462774
-  ChildIds: 5804542795490647954
-  ChildIds: 17446792303668844978
-  ChildIds: 14498611399980473339
-  ChildIds: 14854663051166113219
-  ChildIds: 16836412507960790076
   ChildIds: 10069207349234999700
   ChildIds: 2974090861425560468
   ChildIds: 12565314290893947534
@@ -127,6 +55,11 @@ Objects {
   ChildIds: 8938950146725730120
   ChildIds: 17103862683627206889
   ChildIds: 5249653397139716518
+  ChildIds: 9730969788013058046
+  ChildIds: 16834484585914034054
+  ChildIds: 16658668167461219529
+  ChildIds: 13801902276040880934
+  ChildIds: 1852145080798510982
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -142,12 +75,1398 @@ Objects {
   }
 }
 Objects {
+  Id: 1852145080798510982
+  Name: "Military Tank Historic Wheel 01"
+  Transform {
+    Location {
+      X: 3315
+      Y: -450
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 513511055554105420
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 13801902276040880934
+  Name: "Muro1"
+  Transform {
+    Location {
+      X: 3920.02588
+      Y: -439.703033
+      Z: 35
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 16936088436516938950
+  ChildIds: 13080701643617299398
+  ChildIds: 15674317957437914534
+  ChildIds: 5596423674677015026
+  ChildIds: 2554022363644062861
+  ChildIds: 12228223015945385459
+  ChildIds: 1993554583516966387
+  ChildIds: 18343815876727062891
+  ChildIds: 5669564712204878062
+  ChildIds: 10540885096382364686
+  ChildIds: 5386855873373594733
+  ChildIds: 5121181675895144593
+  ChildIds: 15089630970635181954
+  ChildIds: 8091301164483171215
+  ChildIds: 5034512714223575776
+  ChildIds: 16452550431066818775
+  ChildIds: 17012454684291023228
+  ChildIds: 11606428026659338764
+  ChildIds: 15299984089704955839
+  ChildIds: 16007789711227067750
+  ChildIds: 4338540178266725296
+  ChildIds: 14607119936544130333
+  ChildIds: 9308949888509394606
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9308949888509394606
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -24.9987221
+      Y: -1869.60437
+      Z: 15
+    }
+    Rotation {
+      Yaw: 2.73207461e-05
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14607119936544130333
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 120.000954
+      Y: -1889.60388
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: -16.3091888
+      Roll: -10.0810785
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4338540178266725296
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: 249.967926
+      Y: -1899.60352
+    }
+    Rotation {
+      Pitch: -4.98092222
+      Yaw: 0.436887115
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16007789711227067750
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 359.967926
+      Y: -1894.60388
+      Z: 20
+    }
+    Rotation {
+      Pitch: 2.11942124
+      Yaw: 17.8058147
+      Roll: -4.38995552
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15299984089704955839
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: 594.935364
+      Y: -1909.6012
+      Z: 15
+    }
+    Rotation {
+      Yaw: 2.73207461e-05
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11606428026659338764
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -140
+      Y: 85
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 95
+      Roll: -5.00000238
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17012454684291023228
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -130
+      Y: -75
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.4368134
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13801902276040880934
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16452550431066818775
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: -910
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999771
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5034512714223575776
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -159.503174
+      Y: -240
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.690834
+      Roll: -10.0810995
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8091301164483171215
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -140
+      Y: 160
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.436821
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15089630970635181954
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -139.503174
+      Y: 280.415039
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.6908264
+      Roll: -10.0810995
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 13801902276040880934
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5121181675895144593
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -120
+      Y: 481.396973
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 84.9999771
+      Roll: -5.00000191
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5386855873373594733
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -73.9489746
+      Y: 972.334229
+      Z: 20
+    }
+    Rotation {
+      Pitch: 2.11942124
+      Yaw: 102.805695
+      Roll: -4.38995552
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10540885096382364686
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: 756.845215
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999771
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5669564712204878062
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -120
+      Y: -1603.60303
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 90.0000076
+      Roll: -5.00000191
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18343815876727062891
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -139.503174
+      Y: -1804.58496
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.6908188
+      Roll: -10.0810709
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1993554583516966387
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -140
+      Y: -1925
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.4368362
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12228223015945385459
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: -1328.15479
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999847
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2554022363644062861
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 360
+      Y: 1025
+      Z: 20
+    }
+    Rotation {
+      Pitch: 2.11942124
+      Yaw: 17.8057537
+      Roll: -4.38995552
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5596423674677015026
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -25
+      Y: 1050
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15674317957437914534
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 120
+      Y: 1030
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: -16.3091
+      Roll: -10.0810385
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 13080701643617299398
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: 595
+      Y: 1010
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16936088436516938950
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: 250
+      Y: 1020
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 0.436879784
+      Roll: -5.01901436
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 13801902276040880934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16658668167461219529
+  Name: "Urban Manhole Cover 01"
+  Transform {
+    Location {
+      X: 5
+      Y: -5
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7563834584959900555
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16834484585914034054
+  Name: "Urban Damaged Concrete Chunk 01"
+  Transform {
+    Location {
+      X: -2950
+      Y: -80
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1012648459633409157
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9730969788013058046
+  Name: "Tire Pile 03 - Large Tire Pile Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4436148631667019225
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tire Pile 03 - Large Tire Pile Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3205
+            Y: 840
+            Z: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11191521903378810305
+    }
+  }
+}
+Objects {
   Id: 5249653397139716518
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: 385
-      Y: -1185
+      X: 424.051025
+      Y: -1184.86768
       Z: 50
     }
     Rotation {
@@ -558,626 +1877,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16836412507960790076
-  Name: "Corrugated Sheet Small"
-  Transform {
-    Location {
-      X: -3797.74414
-      Y: -310
-      Z: 50
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 3.50000024
-      Y: 3.50000024
-      Z: 3.50000024
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17656495108824350163
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 14854663051166113219
-  Name: "Corrugated Sheet Bent"
-  Transform {
-    Location {
-      X: -3860
-      Y: 685
-      Z: 50
-    }
-    Rotation {
-      Pitch: -10
-      Yaw: 95
-      Roll: -5
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6865249745567109080
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 14498611399980473339
-  Name: "Corrugated Sheet Tall"
-  Transform {
-    Location {
-      X: -3850
-      Y: 525
-      Z: 35
-    }
-    Rotation {
-      Pitch: -4.98092651
-      Yaw: 85.436821
-      Roll: -5.01901245
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17280976981586363031
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 17446792303668844978
-  Name: "Corrugated Sheet Medium"
-  Transform {
-    Location {
-      X: -3879.50317
-      Y: 360
-      Z: 50
-    }
-    Rotation {
-      Pitch: -12.317627
-      Yaw: 68.6908264
-      Roll: -10.0810852
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 2.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5154493427538871909
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 5804542795490647954
-  Name: "Corrugated Sheet Tall"
-  Transform {
-    Location {
-      X: -3860
-      Y: 760
-      Z: 35
-    }
-    Rotation {
-      Pitch: -4.98092651
-      Yaw: 85.4368362
-      Roll: -5.01901245
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17280976981586363031
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 3128293303702462774
-  Name: "Corrugated Sheet Medium"
-  Transform {
-    Location {
-      X: -3859.50317
-      Y: 880.415039
-      Z: 50
-    }
-    Rotation {
-      Pitch: -12.317627
-      Yaw: 68.6908188
-      Roll: -10.0810852
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 2.25
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5154493427538871909
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 18338939721227702058
-  Name: "Corrugated Sheet Bent"
-  Transform {
-    Location {
-      X: -3840
-      Y: 1081.39697
-      Z: 50
-    }
-    Rotation {
-      Pitch: -10
-      Yaw: 84.9999847
-      Roll: -5
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6865249745567109080
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 15693313636837934568
-  Name: "Corrugated Sheet Medium"
-  Transform {
-    Location {
-      X: -3793.94897
-      Y: 1572.33423
-      Z: 55
-    }
-    Rotation {
-      Pitch: 2.11942124
-      Yaw: 102.805672
-      Roll: -4.38995361
-    }
-    Scale {
-      X: 1.75
-      Y: 1.75
-      Z: 1.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5154493427538871909
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 11175495060797453928
-  Name: "Corrugated Sheet Small"
-  Transform {
-    Location {
-      X: -3797.74414
-      Y: 1356.84521
-      Z: 50
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 3.50000024
-      Y: 3.50000024
-      Z: 3.50000024
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17656495108824350163
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 11852107105005100328
-  Name: "Corrugated Sheet Bent"
-  Transform {
-    Location {
-      X: -3840
-      Y: -1003.60303
-      Z: 50
-    }
-    Rotation {
-      Pitch: -10
-      Yaw: 90
-      Roll: -5
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6865249745567109080
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 11821271072064816327
-  Name: "Corrugated Sheet Medium"
-  Transform {
-    Location {
-      X: -3859.50317
-      Y: -1204.58496
-      Z: 50
-    }
-    Rotation {
-      Pitch: -12.317627
-      Yaw: 68.6908
-      Roll: -10.0810547
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 2.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5154493427538871909
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 17141004091661176764
-  Name: "Corrugated Sheet Tall"
-  Transform {
-    Location {
-      X: -3860
-      Y: -1325
-      Z: 35
-    }
-    Rotation {
-      Pitch: -4.98092651
-      Yaw: 85.4368591
-      Roll: -5.01901245
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17280976981586363031
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 12743816339044706750
   Name: "Corrugated Sheet Medium"
   Transform {
@@ -1228,24 +1927,53 @@ Objects {
   }
 }
 Objects {
-  Id: 14305513264113742127
-  Name: "Corrugated Sheet Small"
+  Id: 752314020301621030
+  Name: "Escaleras2"
   Transform {
     Location {
-      X: -3797.74414
-      Y: -728.154785
+      X: 64.9999924
+      Y: -3464.99976
       Z: 50
     }
     Rotation {
-      Yaw: 85
+      Yaw: 90
     }
     Scale {
-      X: 3.50000024
-      Y: 3.50000024
-      Z: 3.50000024
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 5040695767248764882
+  ChildIds: 5414901107223183875
+  ChildIds: 1649943718345387826
+  ChildIds: 11857040369194232524
+  ChildIds: 7131831196396024381
+  ChildIds: 11918166074113378087
+  ChildIds: 17228574182810310291
+  ChildIds: 2992880308806904199
+  ChildIds: 14929114889704730172
+  ChildIds: 17805829997989870584
+  ChildIds: 9404373875579766677
+  ChildIds: 13095208291093619096
+  ChildIds: 14727505989150591735
+  ChildIds: 10695104428517113074
+  ChildIds: 7127014457518390457
+  ChildIds: 16616823037820759247
+  ChildIds: 17880823856003694604
+  ChildIds: 11208805672153008161
+  ChildIds: 18211512198672473164
+  ChildIds: 2243731917234781500
+  ChildIds: 7120489052842241904
+  ChildIds: 1697761798530149837
+  ChildIds: 17248171410022826328
+  ChildIds: 5084148568183273331
+  ChildIds: 9073819009621836377
+  ChildIds: 13225256569482245679
+  ChildIds: 18218067366663171249
+  ChildIds: 14509096661751939774
+  ChildIds: 2920819023470626151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1258,691 +1986,12 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 17656495108824350163
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {
-  Id: 14567581207629641373
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 1545
-      Y: 165
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -185.000854
-            Y: 1380
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 5982849799174625950
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 1945
-      Y: 164.999878
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -185.000732
-            Y: 1780
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 17903090329367652326
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 2345
-      Y: 164.999634
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -185.000488
-            Y: 2179.99976
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 17134199706457799883
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 2744.99951
-      Y: 164.999756
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -185.000977
-            Y: 2579.99902
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 6500107681541397953
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 3144.99902
-      Y: 164.999268
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -190
-            Y: 2979.99902
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 7108281921518733948
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 3544.99951
-      Y: 164.999512
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -185
-            Y: 3379.99951
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 14876465120681577949
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 3180
-      Y: -280.000488
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255.002197
-            Y: 3015
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 8177680072846753487
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 2780.00024
-      Y: -279.999878
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255.001221
-            Y: 2615
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 206857179748617720
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 2380
-      Y: -280
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255.001099
-            Y: 2214.99976
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 5451009549724578096
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 1980
-      Y: -279.999512
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255.00061
-            Y: 1814.99963
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 10815054146871740334
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 1580.00024
-      Y: -279.999756
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255.000854
-            Y: 1415.00024
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 8186912378644223730
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 1179.99988
-      Y: -279.999146
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 255
-            Y: 1015
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 908637135764940025
+  Id: 2920819023470626151
   Name: "Modern Stairs 01 - Railing Straight 4m Template"
   Transform {
     Location {
@@ -1959,7 +2008,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -1971,625 +2020,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1545
-            Y: 165
-            Z: 1230
+            X: 2474.99976
+            Y: -140
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 16250901752502707531
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 109.999878
-      Y: -1725
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1945
-            Y: 164.999878
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 4195922054336563902
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 109.999878
-      Y: -2125
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2345
-            Y: 164.999634
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 6063721566306387638
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 109.999756
-      Y: -2524.99951
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2744.99951
-            Y: 164.999756
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 6990864368970749251
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 109.999512
-      Y: -2924.99976
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3144.99902
-            Y: 164.999268
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 10700815934939240719
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: 110
-      Y: -3324.99927
-      Z: 1230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3544.99951
-            Y: 164.999512
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 3793982144578488743
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -335.000244
-      Y: -2960
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3180
-            Y: -280.000488
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 8438158054824544557
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -334.999878
-      Y: -2560.00024
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2780.00024
-            Y: -279.999878
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 14450547464240105841
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -334.999756
-      Y: -2160
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2380
-            Y: -280
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 10381298065639426172
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -334.999512
-      Y: -1760
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1980
-            Y: -279.999512
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 8042537651071218857
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -334.999756
-      Y: -1360.00024
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1580.00024
-            Y: -279.999756
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 10193199761566692442
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -334.999268
-      Y: -959.999756
-      Z: 1230
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1179.99988
-            Y: -279.999146
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
+            Yaw: 90.0000229
           }
         }
         Overrides {
@@ -2625,7 +2064,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2637,15 +2076,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 110
-            Y: -1325
-            Z: 1230
+            X: 2074.99976
+            Y: -140
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2681,7 +2120,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2693,15 +2132,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 109.999878
-            Y: -1725
-            Z: 1230
+            X: 1674.99976
+            Y: -139.999756
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2737,7 +2176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2749,15 +2188,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 109.999878
-            Y: -2125
-            Z: 1230
+            X: 1274.99988
+            Y: -139.999878
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2793,7 +2232,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2805,15 +2244,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 109.999756
-            Y: -2524.99951
-            Z: 1230
+            X: 875.000366
+            Y: -139.999695
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2849,7 +2288,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2861,15 +2300,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 109.999512
-            Y: -2924.99976
-            Z: 1230
+            X: 475.000183
+            Y: -139.999481
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2905,7 +2344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2917,15 +2356,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 110
-            Y: -3324.99927
-            Z: 1230
+            X: 75.0007324
+            Y: -139.999985
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 180
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -2961,7 +2400,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -2973,14 +2412,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -335.000244
-            Y: -2960
-            Z: 1230
+            X: 439.999969
+            Y: 305.000244
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3016,7 +2456,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3028,14 +2468,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -334.999878
-            Y: -2560.00024
-            Z: 1230
+            X: 839.999695
+            Y: 304.999878
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3071,7 +2512,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3083,14 +2524,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -334.999756
-            Y: -2160
-            Z: 1230
+            X: 1239.99988
+            Y: 304.999878
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3126,7 +2568,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3138,14 +2580,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -334.999512
-            Y: -1760
-            Z: 1230
+            X: 1639.99988
+            Y: 304.999512
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3181,7 +2624,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3193,14 +2636,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -334.999756
-            Y: -1360.00024
-            Z: 1230
+            X: 2039.99963
+            Y: 304.999756
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3236,7 +2680,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3248,14 +2692,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -334.999268
-            Y: -959.999756
-            Z: 1230
+            X: 2440
+            Y: 304.999268
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3274,16 +2719,15 @@ Objects {
   }
 }
 Objects {
-  Id: 13122601623851769559
+  Id: 16616823037820759247
   Name: "Modern Stairs 01 - Railing Straight 4m Template"
   Transform {
     Location {
-      X: -1355
-      Y: -105
+      X: -334.999268
+      Y: -959.999756
       Z: 1230
     }
     Rotation {
-      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -3291,7 +2735,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 752314020301621030
   TemplateInstance {
     ParameterOverrideMap {
       key: 6400355983146961206
@@ -3303,15 +2747,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2990
-            Y: 340
-            Z: 1230
+            X: 2839.99976
+            Y: 304.999512
+            Z: 1180
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
+            Yaw: -89.9999924
           }
         }
         Overrides {
@@ -3327,656 +2771,6 @@ Objects {
     TemplateAsset {
       Id: 88348083472293770
     }
-  }
-}
-Objects {
-  Id: 2401921607682715829
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -1755
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2590
-            Y: 340.000061
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 1892388780992018334
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2155
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2190
-            Y: 339.999786
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 15221231321457701478
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2555
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1790
-            Y: 339.999573
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 8039399129548558064
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2955
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1390.00024
-            Y: 339.999878
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 11990046190160660357
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -3355
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -989.999756
-            Y: 339.999542
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 17055770491297256049
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -1755
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1355
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 16426586410603107728
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2155
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1755
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 16341680215586089761
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2550
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2155
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 2137682073285021905
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -2955
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2555
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999619
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 10910172318143011418
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Location {
-      X: -3355
-      Y: -105
-      Z: 1230
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2955
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999847
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 11159941697048687798
-  Name: "Modern Stairs 01 - Railing Straight 4m Template"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6400355983146961206
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Modern Stairs 01 - Railing Straight 4m Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3355
-            Y: -105
-            Z: 1230
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 88348083472293770
-    }
-  }
-}
-Objects {
-  Id: 752314020301621030
-  Name: "Escaleras"
-  Transform {
-    Location {
-      X: -30
-      Y: -3400
-      Z: 50
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 5040695767248764882
-  ChildIds: 5414901107223183875
-  ChildIds: 1649943718345387826
-  ChildIds: 11857040369194232524
-  ChildIds: 7131831196396024381
-  ChildIds: 11918166074113378087
-  ChildIds: 17228574182810310291
-  ChildIds: 2992880308806904199
-  ChildIds: 14929114889704730172
-  ChildIds: 17805829997989870584
-  ChildIds: 9404373875579766677
-  ChildIds: 13095208291093619096
-  ChildIds: 14727505989150591735
-  ChildIds: 10695104428517113074
-  ChildIds: 7127014457518390457
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {
@@ -4053,14 +2847,14 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -310
-      Y: 275
+      X: -309.999969
+      Y: 274.999847
       Z: 1195
     }
     Rotation {
     }
     Scale {
-      X: 3.5
+      X: 4
       Y: 0.5
       Z: 0.5
     }
@@ -5376,11 +4170,11 @@ Objects {
 }
 Objects {
   Id: 754425201922070342
-  Name: "Escaleras"
+  Name: "Escaleras3"
   Transform {
     Location {
-      X: 3630
-      Y: 10
+      X: 3275
+      Y: 50.0000763
       Z: 50
     }
     Rotation {
@@ -5408,6 +4202,20 @@ Objects {
   ChildIds: 2561928067629203401
   ChildIds: 6867018658439910475
   ChildIds: 5907830338960791097
+  ChildIds: 821023209412577264
+  ChildIds: 908637135764940025
+  ChildIds: 16250901752502707531
+  ChildIds: 4195922054336563902
+  ChildIds: 6063721566306387638
+  ChildIds: 6990864368970749251
+  ChildIds: 10700815934939240719
+  ChildIds: 12931623443720022200
+  ChildIds: 10193199761566692442
+  ChildIds: 8042537651071218857
+  ChildIds: 10381298065639426172
+  ChildIds: 14450547464240105841
+  ChildIds: 8438158054824544557
+  ChildIds: 3793982144578488743
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5422,6 +4230,784 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3793982144578488743
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -335.000244
+      Y: -2960
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 449.999817
+            Y: 290.000244
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 8438158054824544557
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -334.999878
+      Y: -2560.00024
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 849.999329
+            Y: 289.999542
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 14450547464240105841
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -334.999756
+      Y: -2160
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1249.99963
+            Y: 289.999573
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 10381298065639426172
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -334.999512
+      Y: -1760
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1649.99915
+            Y: 289.999
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 8042537651071218857
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -334.999756
+      Y: -1360.00024
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2049.99878
+            Y: 289.999146
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 10193199761566692442
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -334.999268
+      Y: -959.999756
+      Z: 1230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2449.99902
+            Y: 289.998444
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 12931623443720022200
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1179.99988
+      Y: -279.999146
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2849.99902
+            Y: 289.998352
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90.0000153
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 10700815934939240719
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 110
+      Y: -3324.99927
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0004196
+            Y: -154.999466
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 6990864368970749251
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 109.999512
+      Y: -2924.99976
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 485.000702
+            Y: -154.999329
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 6063721566306387638
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 109.999756
+      Y: -2524.99951
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 884.999939
+            Y: -154.999908
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 4195922054336563902
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 109.999878
+      Y: -2125
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1284.99951
+            Y: -154.999878
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 16250901752502707531
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 109.999878
+      Y: -1725
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1684.99902
+            Y: -155.000214
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 908637135764940025
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 110
+      Y: -1325
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2084.99902
+            Y: -155.000443
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 821023209412577264
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1545
+      Y: 165
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 754425201922070342
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2484.99902
+            Y: -155.000534
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
   }
 }
 Objects {
@@ -5498,14 +5084,14 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -310
-      Y: 275
+      X: -309.999329
+      Y: 274.999268
       Z: 1195
     }
     Rotation {
     }
     Scale {
-      X: 3.5
+      X: 4.00000048
       Y: 0.5
       Z: 0.5
     }
@@ -6821,11 +6407,11 @@ Objects {
 }
 Objects {
   Id: 9217573043873835814
-  Name: "Escaleras"
+  Name: "Escaleras4"
   Transform {
     Location {
-      X: -40
-      Y: 3455
+      X: -94.9997177
+      Y: 3160
       Z: 50
     }
     Rotation {
@@ -6853,6 +6439,18 @@ Objects {
   ChildIds: 13435778756556164087
   ChildIds: 15976249991638803659
   ChildIds: 3331895659615517434
+  ChildIds: 8186912378644223730
+  ChildIds: 10815054146871740334
+  ChildIds: 5451009549724578096
+  ChildIds: 206857179748617720
+  ChildIds: 8177680072846753487
+  ChildIds: 14876465120681577949
+  ChildIds: 7108281921518733948
+  ChildIds: 6500107681541397953
+  ChildIds: 17134199706457799883
+  ChildIds: 17903090329367652326
+  ChildIds: 5982849799174625950
+  ChildIds: 14567581207629641373
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6867,6 +6465,678 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14567581207629641373
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1545
+      Y: 165
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2074.99976
+            Y: -145.000732
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 5982849799174625950
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1945
+      Y: 164.999878
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1674.99976
+            Y: -145.000854
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 17903090329367652326
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 2345
+      Y: 164.999634
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1275
+            Y: -145.00061
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 17134199706457799883
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 2744.99951
+      Y: 164.999756
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 875.000854
+            Y: -145.000977
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 6500107681541397953
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 3144.99902
+      Y: 164.999268
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 475.000916
+            Y: -150.000031
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 7108281921518733948
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 3544.99951
+      Y: 164.999512
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 75.0004654
+            Y: -145
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 14876465120681577949
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 3180
+      Y: -280.000488
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 440
+            Y: 295.002167
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 8177680072846753487
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 2780.00024
+      Y: -279.999878
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 839.999878
+            Y: 295.00116
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 206857179748617720
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 2380
+      Y: -280
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1240.00012
+            Y: 295.001099
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 5451009549724578096
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1980
+      Y: -279.999512
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1640.00024
+            Y: 295.00061
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 10815054146871740334
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1580.00024
+      Y: -279.999756
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2039.99963
+            Y: 295.000854
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 8186912378644223730
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: 1179.99988
+      Y: -279.999146
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9217573043873835814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2439.99976
+            Y: 295
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
   }
 }
 Objects {
@@ -8797,11 +9067,11 @@ Objects {
 }
 Objects {
   Id: 7648656013069215951
-  Name: "Escaleras"
+  Name: "Escaleras1"
   Transform {
     Location {
       X: -3450
-      Y: 50
+      Y: -90.0004883
       Z: 50
     }
     Rotation {
@@ -8828,6 +9098,20 @@ Objects {
   ChildIds: 478257393286459266
   ChildIds: 15028747487912063651
   ChildIds: 12765507592613817130
+  ChildIds: 6372549764180308719
+  ChildIds: 11990046190160660357
+  ChildIds: 8039399129548558064
+  ChildIds: 15221231321457701478
+  ChildIds: 1892388780992018334
+  ChildIds: 2401921607682715829
+  ChildIds: 13122601623851769559
+  ChildIds: 16538679527948404695
+  ChildIds: 17055770491297256049
+  ChildIds: 16426586410603107728
+  ChildIds: 16341680215586089761
+  ChildIds: 10910172318143011418
+  ChildIds: 2137682073285021905
+  ChildIds: 11159941697048687798
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8842,6 +9126,782 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 11159941697048687798
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 95
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 2137682073285021905
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2955
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 895
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 10910172318143011418
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -3355
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 495
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 16341680215586089761
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2550
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1295
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 16426586410603107728
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2155
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1695
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 17055770491297256049
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -1755
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2095
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 16538679527948404695
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -1355
+      Y: -165
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2494.99976
+            Y: -150
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 13122601623851769559
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -1355
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 460
+            Y: 295
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 2401921607682715829
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -1755
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 860
+            Y: 295.000061
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 1892388780992018334
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2155
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1260
+            Y: 294.999786
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 15221231321457701478
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2555
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1660
+            Y: 294.999573
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 8039399129548558064
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -2955
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2059.99976
+            Y: 294.999878
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 11990046190160660357
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -3355
+      Y: -105
+      Z: 1230
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2460.00024
+            Y: 294.999542
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
+  }
+}
+Objects {
+  Id: 6372549764180308719
+  Name: "Modern Stairs 01 - Railing Straight 4m Template"
+  Transform {
+    Location {
+      X: -989.999756
+      Y: 279.999542
+      Z: 1230
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7648656013069215951
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6400355983146961206
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Stairs 01 - Railing Straight 4m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2860
+            Y: 294.999542
+            Z: 1180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 88348083472293770
+    }
   }
 }
 Objects {
@@ -8925,7 +9985,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 3.5
+      X: 4
       Y: 0.5
       Z: 0.5
     }
@@ -10287,18 +11347,432 @@ Objects {
   }
 }
 Objects {
-  Id: 7014918871802483178
+  Id: 15427633907745165394
+  Name: "Muro1"
+  Transform {
+    Location {
+      X: -3720
+      Y: 600
+      Z: 35
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 17656396095627765274
+  ChildIds: 17616083615601182699
+  ChildIds: 12443870826498091331
+  ChildIds: 11014636343636680564
+  ChildIds: 7014918871802483178
+  ChildIds: 14305513264113742127
+  ChildIds: 17141004091661176764
+  ChildIds: 11821271072064816327
+  ChildIds: 11852107105005100328
+  ChildIds: 11175495060797453928
+  ChildIds: 15693313636837934568
+  ChildIds: 18338939721227702058
+  ChildIds: 3128293303702462774
+  ChildIds: 5804542795490647954
+  ChildIds: 17446792303668844978
+  ChildIds: 16836412507960790076
+  ChildIds: 14498611399980473339
+  ChildIds: 14854663051166113219
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14854663051166113219
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -140
+      Y: 85
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 95
+      Roll: -5.00000238
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14498611399980473339
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -130
+      Y: -75
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.4368134
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 15427633907745165394
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16836412507960790076
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: -910
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999771
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17446792303668844978
   Name: "Corrugated Sheet Medium"
   Transform {
     Location {
-      X: -3360
-      Y: 1625
-      Z: 55
+      X: -159.503174
+      Y: -240
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.690834
+      Roll: -10.0810995
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5804542795490647954
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -140
+      Y: 160
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.436821
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3128293303702462774
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -139.503174
+      Y: 280.415039
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.6908264
+      Roll: -10.0810995
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 15427633907745165394
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18338939721227702058
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -120
+      Y: 481.396973
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 84.9999771
+      Roll: -5.00000191
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15693313636837934568
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -73.9489746
+      Y: 972.334229
+      Z: 20
     }
     Rotation {
       Pitch: 2.11942124
-      Yaw: 17.8057461
-      Roll: -4.38995361
+      Yaw: 102.805695
+      Roll: -4.38995552
     }
     Scale {
       X: 1.75
@@ -10306,7 +11780,310 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11175495060797453928
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: 756.845215
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999771
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11852107105005100328
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -120
+      Y: -1603.60303
+      Z: 15
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 90.0000076
+      Roll: -5.00000191
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 15427633907745165394
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6756853467189106878
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11821271072064816327
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -139.503174
+      Y: -1804.58496
+      Z: 15
+    }
+    Rotation {
+      Pitch: -12.3176241
+      Yaw: 68.6908188
+      Roll: -10.0810709
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17141004091661176764
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -140
+      Y: -1925
+    }
+    Rotation {
+      Pitch: -4.9809289
+      Yaw: 85.4368362
+      Roll: -5.01901388
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14305513264113742127
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -77.7441406
+      Y: -1328.15479
+      Z: 15
+    }
+    Rotation {
+      Yaw: 84.9999847
+    }
+    Scale {
+      X: 3.50000024
+      Y: 3.50000024
+      Z: 3.50000024
+    }
+  }
+  ParentId: 15427633907745165394
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7014918871802483178
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 360
+      Y: 1025
+      Z: 20
+    }
+    Rotation {
+      Pitch: 2.11942124
+      Yaw: 17.8057537
+      Roll: -4.38995552
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 15427633907745165394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10341,9 +12118,9 @@ Objects {
   Name: "Corrugated Sheet Bent"
   Transform {
     Location {
-      X: -3745
-      Y: 1650
-      Z: 50
+      X: -25
+      Y: 1050
+      Z: 15
     }
     Rotation {
     }
@@ -10353,7 +12130,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 15427633907745165394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10388,14 +12165,14 @@ Objects {
   Name: "Corrugated Sheet Medium"
   Transform {
     Location {
-      X: -3600
-      Y: 1630
-      Z: 50
+      X: 120
+      Y: 1030
+      Z: 15
     }
     Rotation {
-      Pitch: -12.317627
-      Yaw: -16.309082
-      Roll: -10.0810242
+      Pitch: -12.3176241
+      Yaw: -16.3091
+      Roll: -10.0810385
     }
     Scale {
       X: 1.75
@@ -10403,7 +12180,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 15427633907745165394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10438,9 +12215,9 @@ Objects {
   Name: "Corrugated Sheet Small"
   Transform {
     Location {
-      X: -3125
-      Y: 1610
-      Z: 50
+      X: 595
+      Y: 1010
+      Z: 15
     }
     Rotation {
     }
@@ -10450,7 +12227,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 15427633907745165394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10485,14 +12262,13 @@ Objects {
   Name: "Corrugated Sheet Tall"
   Transform {
     Location {
-      X: -3470
-      Y: 1620
-      Z: 35
+      X: 250
+      Y: 1020
     }
     Rotation {
-      Pitch: -4.98092651
-      Yaw: 0.436879843
-      Roll: -5.01901245
+      Pitch: -4.9809289
+      Yaw: 0.436879784
+      Roll: -5.01901436
     }
     Scale {
       X: 1.25
@@ -10500,7 +12276,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 15427633907745165394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10527,162 +12303,6 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 18318186413792285673
-  Name: "Sky Whimsical Sunny Saturation"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17528074849339172532
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Whimsical Sunny Saturation"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5509266739738503839
-    }
-  }
-}
-Objects {
-  Id: 7807379266861450452
-  Name: "Sky Sci-fi 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12743596547252287504
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Sci-fi 01"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10516885838500294198
-    }
-  }
-}
-Objects {
-  Id: 18045083300492648688
-  Name: "Sky Early Morning 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 51842692516367270
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Early Morning 01"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11735619383333526435
-    }
-  }
-}
-Objects {
-  Id: 15261047386103735773
-  Name: "Sky Core default"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15742431864397169539
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Core default"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15541198888023882008
-    }
-  }
-}
-Objects {
-  Id: 3072006002873286232
-  Name: "Sky Sci-fi 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12743596547252287504
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Sci-fi 01"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10516885838500294198
-    }
-  }
-}
-Objects {
-  Id: 13910927606950263616
-  Name: "Sky Nighttime 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13664821734768608629
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Nighttime 01"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2261623061045141480
     }
   }
 }
@@ -10917,71 +12537,16 @@ Objects {
   }
 }
 Objects {
-  Id: 1057020358997314952
-  Name: "Sci-fi Satellite Base"
-  Transform {
-    Location {
-      X: -10
-      Y: 10
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9259010723541463567
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12524855460580876626
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 8474559186860044457
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: -150
-      Y: -550
+      X: -116.398895
+      Y: -595.761169
       Z: 50
     }
     Rotation {
-      Yaw: 180
+      Yaw: -175
     }
     Scale {
       X: 1
@@ -11044,12 +12609,12 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: 500
-      Y: -100
+      X: 572.811951
+      Y: -161.674271
       Z: 50
     }
     Rotation {
-      Yaw: -85
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -11112,12 +12677,12 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: -550
-      Y: 150
+      X: -552.888
+      Y: 202.637558
       Z: 50
     }
     Rotation {
-      Yaw: 90
+      Yaw: 85
     }
     Scale {
       X: 1
@@ -11180,11 +12745,12 @@ Objects {
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
-      X: 150
-      Y: 500
+      X: 218.325256
+      Y: 542.926147
       Z: 50
     }
     Rotation {
+      Yaw: -5
     }
     Scale {
       X: 1

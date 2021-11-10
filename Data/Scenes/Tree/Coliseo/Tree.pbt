@@ -1,18 +1,18 @@
 Name: "Coliseo"
 RootId: 18407107926840569230
 Objects {
-  Id: 14358690725564010971
+  Id: 12642139508732791326
   Name: "AroDomo"
   Transform {
     Location {
-      Z: 25
+      Z: 70
     }
     Rotation {
     }
     Scale {
-      X: 139
-      Y: 139
-      Z: 2.5
+      X: 186.25
+      Y: 186.25
+      Z: 61.2500153
     }
   }
   ParentId: 18407107926840569230
@@ -38,7 +38,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4854270377050611262
+      Id: 15900267062871180094
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -63,9 +63,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 140.000015
-      Y: 140.000015
-      Z: 2.5
+      X: 186.75
+      Y: 186.75
+      Z: 61.5000038
     }
   }
   ParentId: 18407107926840569230
@@ -91,7 +91,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 4854270377050611262
+      Id: 15900267062871180094
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -127,6 +127,10 @@ Objects {
       AssetReference {
         Id: 966063784007010852
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {

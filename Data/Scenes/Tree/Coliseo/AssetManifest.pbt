@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15900267062871180094
+  Name: "Ring - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_005"
+  }
+}
+Assets {
   Id: 14881524855514019529
   Name: "Bone Human Skull 01"
   PlatformAssetType: 1

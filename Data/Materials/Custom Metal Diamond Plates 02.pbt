@@ -15,7 +15,7 @@ Assets {
       }
       Overrides {
         Name: "rust_amount"
-        Float: 0.271630287
+        Float: 0.0907441229
       }
       Overrides {
         Name: "gradient_shift"
@@ -28,6 +28,10 @@ Assets {
       Overrides {
         Name: "roughness_multiplier"
         Float: 0.711786628
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 4
       }
     }
     Assets {

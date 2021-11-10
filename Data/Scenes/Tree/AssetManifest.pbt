@@ -89,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12524855460580876626
-  Name: "Sci-fi Satellite Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_satellite_base_001"
-  }
-}
-Assets {
   Id: 12098248425628261283
   Name: "Glass 01 (no distortion)"
   PlatformAssetType: 2
@@ -158,6 +149,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 7563834584959900555
+  Name: "Urban Manhole Cover 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_manhole_cover_01_ref"
   }
 }
 Assets {
@@ -305,12 +305,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1012648459633409157
+  Name: "Urban Damaged Concrete Chunk 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_001_ref"
+  }
+}
+Assets {
   Id: 746033247183905453
   Name: "Metal Diamond Plates 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_rust_diamond-plate_002"
+  }
+}
+Assets {
+  Id: 513511055554105420
+  Name: "Military Tank Historic Wheel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_wheel_001_ref"
   }
 }
 Assets {
