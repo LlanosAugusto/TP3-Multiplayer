@@ -20,31 +20,39 @@ local ABGS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
 -- User exposed properties
-local REQUIRED_PLAYERS = COMPONENT_ROOT:GetCustomProperty("RequiredPlayers")
-local COUNTDOWN_TIME = COMPONENT_ROOT:GetCustomProperty("CountdownTime")
+local GEOMETRY = COMPONENT_ROOT:GetCustomProperty("Geometry"):WaitForObject()
+local EXISTS_IN_LOBBY = COMPONENT_ROOT:GetCustomProperty("ExistsInLobby")
+local EXISTS_IN_ROUND = COMPONENT_ROOT:GetCustomProperty("ExistsInRound")
+local EXISTS_IN_ROUND_END = COMPONENT_ROOT:GetCustomProperty("ExistsInRoundEnd")
 
 -- Check user properties
-if REQUIRED_PLAYERS < 1 then
-    warn("RequiredPlayers must be positive")
-    REQUIRED_PLAYERS = 1
-end
-
-if COUNTDOWN_TIME < 0.0 then
-    warn("CountdownTime must be non-negative")
-    COUNTDOWN_TIME = 0.0
+if GEOMETRY and not GEOMETRY.isNetworked then
+    error("Geometry object must be networked")
 end
 
 -- nil Tick(float)
--- Handles setting a timer in the lobby game state when there are enough players in the game
+-- Handles "removing" geometry when not in the lobby game state
 function Tick(deltaTime)
-	if not ABGS.IsGameStateManagerRegistered() then
-		return
-	end
+	if GEOMETRY then
+		if ABGS.IsGameStateManagerRegistered() then
+			local gameState = ABGS.GetGameState()
+			local exists = false
 
-	if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY and ABGS.GetTimeRemainingInState() == nil then
-		local players = Game.GetPlayers()
-		if #players >= REQUIRED_PLAYERS then
-			ABGS.SetTimeRemainingInState(COUNTDOWN_TIME)
+			if gameState == ABGS.GAME_STATE_LOBBY then
+				exists = EXISTS_IN_LOBBY
+			elseif gameState == ABGS.GAME_STATE_ROUND then
+				exists = EXISTS_IN_ROUND
+			elseif gameState == ABGS.GAME_STATE_ROUND_END then
+				exists = EXISTS_IN_ROUND_END
+			end
+
+			if exists then
+				GEOMETRY.visibility = Visibility.INHERIT
+				GEOMETRY.collision = Collision.INHERIT
+			else
+				GEOMETRY.visibility = Visibility.FORCE_OFF
+				GEOMETRY.collision = Collision.FORCE_OFF
+			end
 		end
 	end
 end

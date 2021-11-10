@@ -17,34 +17,24 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 
 -- Internal custom properties
 local ABGS = require(script:GetCustomProperty("API"))
-local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 
--- User exposed properties
-local REQUIRED_PLAYERS = COMPONENT_ROOT:GetCustomProperty("RequiredPlayers")
-local COUNTDOWN_TIME = COMPONENT_ROOT:GetCustomProperty("CountdownTime")
-
--- Check user properties
-if REQUIRED_PLAYERS < 1 then
-    warn("RequiredPlayers must be positive")
-    REQUIRED_PLAYERS = 1
+-- int GetGameState()
+-- Gets the current state. Passed to API
+function GetGameState()
+	return SERVER_SCRIPT:GetCustomProperty("State")
 end
 
-if COUNTDOWN_TIME < 0.0 then
-    warn("CountdownTime must be non-negative")
-    COUNTDOWN_TIME = 0.0
-end
-
--- nil Tick(float)
--- Handles setting a timer in the lobby game state when there are enough players in the game
-function Tick(deltaTime)
-	if not ABGS.IsGameStateManagerRegistered() then
-		return
+-- <float> GetTimeRemainingInState()
+-- Gets time remaining in state, or nil. Passed to API
+function GetTimeRemainingInState()
+	if not SERVER_SCRIPT:GetCustomProperty("StateHasDuration") then
+		return nil
 	end
 
-	if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY and ABGS.GetTimeRemainingInState() == nil then
-		local players = Game.GetPlayers()
-		if #players >= REQUIRED_PLAYERS then
-			ABGS.SetTimeRemainingInState(COUNTDOWN_TIME)
-		end
-	end
+	local endTime = SERVER_SCRIPT:GetCustomProperty("StateEndTime")
+	return math.max(endTime - time(), 0.0)
 end
+
+-- Initialize
+ABGS.RegisterGameStateManagerClient(GetGameState, GetTimeRemainingInState)

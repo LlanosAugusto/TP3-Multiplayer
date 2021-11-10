@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16584977929974742038
-  Name: "Grid Cube Glow 9 Slice 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grid_9slice_001_ref"
-  }
-}
-Assets {
   Id: 16354109431762886278
   Name: "Urban Office Ceiling Lamp 03"
   PlatformAssetType: 1
@@ -89,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12098248425628261283
-  Name: "Glass 01 (no distortion)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
   Id: 10476967999625115831
   Name: "Modern Damaged Stairs Post 01"
   PlatformAssetType: 1
@@ -140,15 +122,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_guardrail_001_curve45_r8m_ref"
-  }
-}
-Assets {
-  Id: 8132202864053814637
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
   }
 }
 Assets {
