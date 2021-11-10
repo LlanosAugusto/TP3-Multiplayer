@@ -228,11 +228,11 @@ Objects {
         }
         Overrides {
           Name: "cs:CountdownTime"
-          Float: 5
+          Float: 10
         }
         Overrides {
           Name: "cs:RequiredPlayers"
-          Int: 3
+          Int: 2
         }
         Overrides {
           Name: "CoreProxy.IsAdvanced"

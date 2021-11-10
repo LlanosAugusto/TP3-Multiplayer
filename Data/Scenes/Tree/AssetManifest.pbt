@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14121921601165233916
-  Name: "Modern Damaged Stairs Steps 01 - Single 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_step_single_01_damaged_03_ref"
-  }
-}
-Assets {
   Id: 13965479305847785162
   Name: "Metal Basic 01"
   PlatformAssetType: 2

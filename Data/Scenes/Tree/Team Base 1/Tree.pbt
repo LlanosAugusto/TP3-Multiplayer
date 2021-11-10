@@ -5,8 +5,8 @@ Objects {
   Name: "Crouching Area"
   Transform {
     Location {
-      X: -1200
-      Y: -800
+      X: -1485
+      Y: 5230
     }
     Rotation {
     }

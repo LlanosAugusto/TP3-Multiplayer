@@ -287,7 +287,7 @@ Assets {
         Name: "Modern Damaged Stairs Steps 01 - Single 04"
         Transform {
           Location {
-            X: -18.5351563
+            X: -18.5351562
             Y: -280.118408
             Z: 243.943329
           }

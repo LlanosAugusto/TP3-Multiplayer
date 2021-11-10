@@ -87,6 +87,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "cs:InventorySize"
+          Int: 1
+        }
       }
     }
     TemplateAsset {

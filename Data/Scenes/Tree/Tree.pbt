@@ -27,7 +27,6 @@ Objects {
   ChildIds: 9319182101825064930
   ChildIds: 15060364710483588798
   ChildIds: 14499462073904954586
-  ChildIds: 5029865049909322928
   ChildIds: 13886356575482611159
   ChildIds: 15427633907745165394
   ChildIds: 14042928437544582418
@@ -60,6 +59,9 @@ Objects {
   ChildIds: 13801902276040880934
   ChildIds: 1852145080798510982
   ChildIds: 12426256967575789502
+  ChildIds: 8305601329164312988
+  ChildIds: 14594880362812885871
+  ChildIds: 11517837403263175960
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -72,6 +74,171 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11517837403263175960
+  Name: "SkullSword1"
+  Transform {
+    Location {
+      X: -115
+      Y: 2785
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1433159917167177382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullSword1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 240
+            Y: 2785
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15379634910855395385
+    }
+  }
+}
+Objects {
+  Id: 14594880362812885871
+  Name: "SkullSword1"
+  Transform {
+    Location {
+      X: -115
+      Y: 3165
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1433159917167177382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullSword1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -115
+            Y: 2785
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15379634910855395385
+    }
+  }
+}
+Objects {
+  Id: 8305601329164312988
+  Name: "SkullSword1"
+  Transform {
+    Location {
+      X: 330
+      Y: 3165
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1433159917167177382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullSword1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -115
+            Y: 3165
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15379634910855395385
+    }
   }
 }
 Objects {
@@ -12396,53 +12563,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5029865049909322928
-  Name: "Modern Damaged Stairs Steps 01 - Single 04"
-  Transform {
-    Location {
-      X: -1870
-      Y: 1640
-      Z: 590
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14121921601165233916
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 14499462073904954586
   Name: "SkullSword1"
   Transform {
@@ -12465,8 +12585,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1950
-            Y: -950
+            X: 330
+            Y: 3165
             Z: 50
           }
         }
