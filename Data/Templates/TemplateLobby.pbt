@@ -258,7 +258,7 @@ Assets {
         Name: "Spawn Point"
         Transform {
           Location {
-            X: -8114.39062
+            X: -8114.39063
             Y: -3777.32227
           }
           Rotation {

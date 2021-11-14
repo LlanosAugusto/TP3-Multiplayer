@@ -265,7 +265,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -337,7 +337,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -409,7 +409,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -481,7 +481,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -553,7 +553,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -625,7 +625,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -697,7 +697,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -769,7 +769,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -841,7 +841,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -913,7 +913,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -985,7 +985,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -1057,7 +1057,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -1129,7 +1129,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -1201,7 +1201,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -1273,7 +1273,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true
@@ -1300,11 +1300,12 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -870.038574
+      X: -845.038574
       Y: 180.362305
       Z: 50
     }
     Rotation {
+      Yaw: 60
     }
     Scale {
       X: 8.5
@@ -1345,7 +1346,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 13602258846703860651
+      Id: 4854270377050611262
     }
     Teams {
       UseTeamColor: true

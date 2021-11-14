@@ -35,12 +35,48 @@ Assets {
   }
 }
 Assets {
+  Id: 16631879715932630555
+  Name: "Manticore Logo"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_logo_manticore_01"
+  }
+}
+Assets {
   Id: 16354109431762886278
   Name: "Urban Office Ceiling Lamp 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_off_lamp_ceiling_003_ref"
+  }
+}
+Assets {
+  Id: 15297953584296494225
+  Name: "Main Street Railing 01 - Post"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
+  }
+}
+Assets {
+  Id: 14967663802026656385
+  Name: "Bone Human Jaw 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_jaw_01_ref"
+  }
+}
+Assets {
+  Id: 14881524855514019529
+  Name: "Bone Human Skull 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_01_ref"
   }
 }
 Assets {
@@ -62,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13649699436139664400
+  Name: "Pipe - 45-Degree Long "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve45_004"
+  }
+}
+Assets {
   Id: 13438923458066365833
   Name: "Frame Large Straight"
   PlatformAssetType: 1
@@ -71,12 +116,39 @@ Assets {
   }
 }
 Assets {
+  Id: 12713276808461873080
+  Name: "Bone Human Pile Straight 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_pile_str_01_ref"
+  }
+}
+Assets {
   Id: 10476967999625115831
   Name: "Modern Damaged Stairs Post 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_post_001_damaged_01_ref"
+  }
+}
+Assets {
+  Id: 9730729531867382250
+  Name: "Main Street Trim 02 - Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_002_corner_ref"
+  }
+}
+Assets {
+  Id: 9594592553715110722
+  Name: "Bone Human Scattered 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_scatter_01_ref"
   }
 }
 Assets {
@@ -104,6 +176,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_guardrail_001_damaged_01_ref"
+  }
+}
+Assets {
+  Id: 8888986733168944058
+  Name: "Main Street Wall 02 - Corner Trim 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_corner_02_ref"
   }
 }
 Assets {
@@ -161,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6529352280012440281
+  Name: "Bone Human Skull Pile 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_pile_02_ref"
+  }
+}
+Assets {
   Id: 6024839797067902776
   Name: "Whitebox Floor 01 8m x 8m"
   PlatformAssetType: 1
@@ -179,12 +269,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5231729588385186433
+  Name: "Bone Human Pelvis Half 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_pelvis_01_ref"
+  }
+}
+Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
+  Id: 5109844251560519452
+  Name: "Bone Human Skull Pile 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_pile_01_ref"
   }
 }
 Assets {
@@ -224,6 +332,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3006751988855567604
+  Name: "Bone Human Ribcage 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_ribcage_01_ref"
+  }
+}
+Assets {
   Id: 2551749691384029320
   Name: "Modern Damaged Stairs Railing 01 - Straight 03"
   PlatformAssetType: 1
@@ -260,12 +377,39 @@ Assets {
   }
 }
 Assets {
+  Id: 1576368642490343894
+  Name: "Bone Human Pile Straight 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_pile_str_02_ref"
+  }
+}
+Assets {
   Id: 1315438047815824613
   Name: "Military Tank Historic Hatch 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_hatch_001_ref"
+  }
+}
+Assets {
+  Id: 1101378469765286388
+  Name: "Bone Human Humerus 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_humerus_01_ref"
+  }
+}
+Assets {
+  Id: 1069021706985628802
+  Name: "Main Street Trim 04 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_004_corner_ref"
   }
 }
 Assets {
@@ -302,5 +446,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
+  }
+}
+Assets {
+  Id: 89052287003445527
+  Name: "Bone Human Scattered 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_scatter_02_ref"
   }
 }
