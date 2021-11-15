@@ -868,8 +868,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -4700.03857
-      Y: -8374.6377
+      X: -4750.03857
+      Y: -8389.6377
       Z: 50
     }
     Rotation {
