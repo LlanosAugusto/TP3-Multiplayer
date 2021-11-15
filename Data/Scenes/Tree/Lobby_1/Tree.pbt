@@ -220,16 +220,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 2429.96143
-      Y: -2889.6377
+      X: 2534.96143
+      Y: -2864.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -292,7 +292,7 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 1739.96143
+      X: 1764.96143
       Y: -1539.6377
       Z: 50
     }
@@ -300,8 +300,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -365,15 +365,15 @@ Objects {
   Transform {
     Location {
       X: 534.961426
-      Y: -519.637695
+      Y: -514.637695
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -436,16 +436,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -3740.03857
-      Y: -79.6376953
+      X: -3685.03857
+      Y: -19.6376953
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -508,16 +508,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -4990.03857
-      Y: -824.637695
+      X: -5030.03857
+      Y: -789.637695
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -588,8 +588,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -653,15 +653,15 @@ Objects {
   Transform {
     Location {
       X: -6665.03857
-      Y: -3464.6377
+      Y: -3449.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -732,8 +732,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -796,7 +796,7 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -5935.03857
+      X: -5905.03857
       Y: -7269.6377
       Z: 50
     }
@@ -804,8 +804,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -869,15 +869,15 @@ Objects {
   Transform {
     Location {
       X: -4700.03857
-      Y: -8439.6377
+      Y: -8374.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -948,8 +948,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -1012,16 +1012,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -240.038574
-      Y: -9014.6377
+      X: -235.038574
+      Y: -9089.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -1092,8 +1092,8 @@ Objects {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -1156,16 +1156,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 2079.96143
-      Y: -7029.6377
+      X: 2124.96143
+      Y: -7084.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -1229,15 +1229,15 @@ Objects {
   Transform {
     Location {
       X: 2809.96143
-      Y: -5584.6377
+      Y: -5659.6377
       Z: 50
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403
@@ -1300,17 +1300,17 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -845.038574
+      X: -880.038574
       Y: 180.362305
-      Z: 50
+      Z: 55
     }
     Rotation {
       Yaw: 60
     }
     Scale {
       X: 8.5
-      Y: 7.5
-      Z: 6.40000153
+      Y: 8.69999886
+      Z: 6.4
     }
   }
   ParentId: 16150043862465214403

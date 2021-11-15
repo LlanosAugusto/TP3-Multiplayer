@@ -1,20 +1,23 @@
-Name: "Coliseo"
-RootId: 18407107926840569230
+Name: "Decoraci\303\263n"
+RootId: 9419817610029920379
 Objects {
-  Id: 15671324542721029546
-  Name: "Conponentes del domo"
+  Id: 16658668167461219529
+  Name: "Plataforma central"
   Transform {
     Location {
+      X: 5
+      Y: -5
+      Z: 50
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
     }
   }
-  ParentId: 18407107926840569230
+  ParentId: 9419817610029920379
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,26 +30,44 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Conponentes del domo"
+  CoreMesh {
+    MeshAsset {
+      Id: 7563834584959900555
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
-  Id: 1048350835487462101
-  Name: "Obstaculos"
+  Id: 9936912699358637942
+  Name: "Manticore Logo(Centro)"
   Transform {
     Location {
+      X: 25
+      Y: 100
+      Z: 2425
     }
     Rotation {
+      Pitch: -29.999979
+      Yaw: -89.9999695
+      Roll: 89.9999695
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 8.75000191
+      Y: 8.75000191
+      Z: 8.75000191
     }
   }
-  ParentId: 18407107926840569230
+  ParentId: 9419817610029920379
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,16 +80,31 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Obstaculos"
+  CoreMesh {
+    MeshAsset {
+      Id: 16631879715932630555
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
-  Id: 13594603729171490436
-  Name: "Espadas"
+  Id: 8934774066725901711
+  Name: "PIlares"
   Transform {
     Location {
+      X: -10
+      Y: -15
+      Z: -15
     }
     Rotation {
     }
@@ -78,89 +114,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18407107926840569230
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Espadas"
-  }
-}
-Objects {
-  Id: 12325050865167333281
-  Name: "Spawn Points"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18407107926840569230
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Spawn Points"
-  }
-}
-Objects {
-  Id: 949288211120957515
-  Name: "Spawn Personas"
-  Transform {
-    Location {
-      X: 320
-      Y: -75
-      Z: -105
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.900000036
-      Y: 0.900000036
-      Z: 0.900000036
-    }
-  }
-  ParentId: 18407107926840569230
-  ChildIds: 1380494067845005044
-  ChildIds: 12700089535439352473
-  ChildIds: 14226493258473111653
-  ChildIds: 7251370720966974914
-  ChildIds: 17538138726801493848
-  ChildIds: 15227988751403733335
-  ChildIds: 8804781605933077503
-  ChildIds: 3944089022382864049
-  ChildIds: 13580247319304981702
-  ChildIds: 15224385489538317957
-  ChildIds: 3572057058730257020
-  ChildIds: 16988431534139092758
-  ChildIds: 3457145934518252119
-  ChildIds: 17814815548740556811
-  ChildIds: 549536890807934301
-  ChildIds: 9693216877576917875
+  ParentId: 9419817610029920379
+  ChildIds: 2226334162034679756
+  ChildIds: 17393034190793923061
+  ChildIds: 5352791585470329343
+  ChildIds: 10257018999947658595
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -178,27 +136,34 @@ Objects {
   }
 }
 Objects {
-  Id: 9693216877576917875
-  Name: "Sci-fi Base Capsule 01 Mid"
+  Id: 10257018999947658595
+  Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
-      X: -5600
-      Y: 1250
+      X: -35
+      Y: -5780
     }
     Rotation {
+      Yaw: 89.9999847
     }
     Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
     }
   }
-  ParentId: 949288211120957515
+  ParentId: 8934774066725901711
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4641382328198219514
+        Id: 3722419759708884904
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17223340170193496391
       }
     }
   }
@@ -216,7 +181,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2102772057339980212
+      Id: 8453442235634426029
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -232,28 +197,34 @@ Objects {
   }
 }
 Objects {
-  Id: 549536890807934301
-  Name: "Sci-fi Base Capsule 01 Mid"
+  Id: 5352791585470329343
+  Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
-      X: 1624.48364
-      Y: -5016.68604
+      X: 5
+      Y: 5810
     }
     Rotation {
-      Yaw: -179.999985
+      Yaw: 89.9999924
     }
     Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
     }
   }
-  ParentId: 949288211120957515
+  ParentId: 8934774066725901711
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4641382328198219514
+        Id: 3722419759708884904
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17223340170193496391
       }
     }
   }
@@ -271,7 +242,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2102772057339980212
+      Id: 8453442235634426029
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -287,28 +258,34 @@ Objects {
   }
 }
 Objects {
-  Id: 17814815548740556811
-  Name: "Sci-fi Base Capsule 01 Mid"
+  Id: 17393034190793923061
+  Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
-      X: 3104.48291
-      Y: -4171.68652
+      X: -5770
+      Y: -10
+      Z: 15
     }
     Rotation {
-      Yaw: -179.999985
     }
     Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
     }
   }
-  ParentId: 949288211120957515
+  ParentId: 8934774066725901711
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4641382328198219514
+        Id: 3722419759708884904
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17223340170193496391
       }
     }
   }
@@ -326,7 +303,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2102772057339980212
+      Id: 8453442235634426029
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -342,28 +319,34 @@ Objects {
   }
 }
 Objects {
-  Id: 3457145934518252119
-  Name: "Sci-fi Base Capsule 01 Mid"
+  Id: 2226334162034679756
+  Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
-      X: 4224.48438
-      Y: -2801.6875
+      X: 5805
+      Y: -10
+      Z: 15
     }
     Rotation {
-      Yaw: -179.999985
     }
     Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
+      X: 6.25
+      Y: 6.25
+      Z: 6.25
     }
   }
-  ParentId: 949288211120957515
+  ParentId: 8934774066725901711
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4641382328198219514
+        Id: 3722419759708884904
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17223340170193496391
       }
     }
   }
@@ -381,7 +364,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2102772057339980212
+      Id: 8453442235634426029
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -397,667 +380,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16988431534139092758
-  Name: "Sci-fi Base Capsule 01 Mid"
+  Id: 397673734794298744
+  Name: "Bones"
   Transform {
     Location {
-      X: 5009.48926
-      Y: -1216.68896
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 3572057058730257020
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -5365.5166
-      Y: -1471.68604
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 15224385489538317957
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -4652.72266
-      Y: -3019.70068
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13580247319304981702
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -3385.55054
-      Y: -4254.84229
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 3944089022382864049
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -1875
-      Y: -5175
-    }
-    Rotation {
-      Yaw: 84.9999847
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 8804781605933077503
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -4815
-      Y: 2835
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 15227988751403733335
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: 929.998779
-      Y: 5280.00098
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 17538138726801493848
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -2215
-      Y: 5050
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 7251370720966974914
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: -3695
-      Y: 4205
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 14226493258473111653
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: 4730
-      Y: 1895
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 12700089535439352473
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: 3885.00049
-      Y: 3375
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 1380494067845005044
-  Name: "Sci-fi Base Capsule 01 Mid"
-  Transform {
-    Location {
-      X: 2514.99902
-      Y: 4495.00098
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 2.25
-      Y: 2.25
-      Z: 0.778
-    }
-  }
-  ParentId: 949288211120957515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4641382328198219514
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2102772057339980212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 9419817610029920379
-  Name: "Decoraci\303\263n"
-  Transform {
-    Location {
+      X: 2470
+      Y: -665
+      Z: 50
     }
     Rotation {
     }
@@ -1067,7 +396,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18407107926840569230
+  ParentId: 9419817610029920379
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1082,6 +411,407 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Decoraci\303\263n"
+    FilePartitionName: "Bones"
+  }
+}
+Objects {
+  Id: 6445028644302307808
+  Name: "Divici\303\263n del medio"
+  Transform {
+    Location {
+      X: -20
+      Y: 5
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9419817610029920379
+  ChildIds: 14502369064482182666
+  ChildIds: 13089693750411916964
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13089693750411916964
+  Name: "Cube - Chamfered Small Polished"
+  Transform {
+    Location {
+      Z: -5
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 120.700012
+      Y: 0.900000036
+      Z: 1
+    }
+  }
+  ParentId: 6445028644302307808
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18067044261137783392
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10157995140860590693
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14502369064482182666
+  Name: "Cube - Chamfered Small Polished"
+  Transform {
+    Location {
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 120.700012
+      Y: 0.900000036
+      Z: 1
+    }
+  }
+  ParentId: 6445028644302307808
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18067044261137783392
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10157995140860590693
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7789761274323873399
+  Name: "Calaveras"
+  Transform {
+    Location {
+      Y: -15
+      Z: 2530
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9419817610029920379
+  ChildIds: 13877394178878888024
+  ChildIds: 5871495099761586289
+  ChildIds: 17966999314162152496
+  ChildIds: 119676877970787889
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 119676877970787889
+  Name: "Bone Human Skull 01"
+  Transform {
+    Location {
+      X: -60
+      Y: 5560
+      Z: 15
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 34
+      Y: 34
+      Z: 34
+    }
+  }
+  ParentId: 7789761274323873399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4567165792383825779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14881524855514019529
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17966999314162152496
+  Name: "Bone Human Skull 01"
+  Transform {
+    Location {
+      X: -5500
+      Y: -10
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 34
+      Y: 34
+      Z: 34
+    }
+  }
+  ParentId: 7789761274323873399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4567165792383825779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14881524855514019529
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5871495099761586289
+  Name: "Bone Human Skull 01"
+  Transform {
+    Location {
+      X: 5620
+      Y: -10
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 34
+      Y: 34
+      Z: 34
+    }
+  }
+  ParentId: 7789761274323873399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4567165792383825779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14881524855514019529
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 13877394178878888024
+  Name: "Bone Human Skull 01"
+  Transform {
+    Location {
+      X: -60
+      Y: -5535
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 34
+      Y: 34
+      Z: 34
+    }
+  }
+  ParentId: 7789761274323873399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4567165792383825779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14881524855514019529
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }

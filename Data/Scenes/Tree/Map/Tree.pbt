@@ -1,6 +1,47 @@
 Name: "Map"
 RootId: 1832166441183768636
 Objects {
+  Id: 12426256967575789502
+  Name: "TemplateLobby"
+  Transform {
+    Location {
+      X: 2470
+      Y: -665
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1832166441183768636
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Team Base 1"
+  }
+  InstanceHistory {
+    SelfId: 12426256967575789502
+    SubobjectId: 4839536486192657565
+    InstanceId: 16797840724733956628
+    TemplateId: 4245137632411442695
+    WasRoot: true
+  }
+}
+Objects {
   Id: 10005074784157121906
   Name: "Default Sky"
   Transform {
