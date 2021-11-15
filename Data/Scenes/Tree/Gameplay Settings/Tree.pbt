@@ -513,7 +513,7 @@ Objects {
     RespawnSettings {
       RespawnDelay: 10
       RespawnMode_v2 {
-        Value: "mc:erespawnmode:none"
+        Value: "mc:erespawnmode:farthestfromenemy"
       }
       StartSpawned: true
     }

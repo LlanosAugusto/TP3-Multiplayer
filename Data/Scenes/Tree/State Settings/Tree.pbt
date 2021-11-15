@@ -1,8 +1,8 @@
 Name: "State Settings"
 RootId: 10277853252493019601
 Objects {
-  Id: 751005709358418122
-  Name: "Round End Unequip Equipment"
+  Id: 12979052802136016076
+  Name: "Game State Message"
   Transform {
     Scale {
       X: 1
@@ -24,16 +24,254 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2752083841628506314
+      key: 7154920798440654563
       value {
         Overrides {
           Name: "Name"
-          String: "Round End Unequip Equipment"
+          String: "Game State Message"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:RoundMessage"
+          String: "Eliminate the Enemies"
         }
       }
     }
     TemplateAsset {
-      Id: 8574561881913643559
+      Id: 3074501022160388017
+    }
+  }
+}
+Objects {
+  Id: 7071526067428663499
+  Name: "Basic Game State Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10277853252493019601
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16086570097188718822
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Game State Manager"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4392520050997934193
+    }
+  }
+}
+Objects {
+  Id: 3007328312358745612
+  Name: "Lobby Required Players"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10277853252493019601
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4494359131020210007
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lobby Required Players"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 165700934996347194
+    }
+  }
+}
+Objects {
+  Id: 14332610365310100578
+  Name: "Lobby Start Respawn Players"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10277853252493019601
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13354720253605587128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lobby Start Respawn Players"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 714839591765825575
+    }
+  }
+}
+Objects {
+  Id: 6388428167450537531
+  Name: "Lobby Start Reset KD"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10277853252493019601
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14905522075498841611
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lobby Start Reset KD"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17154454822903296868
     }
   }
 }
@@ -93,159 +331,6 @@ Objects {
   }
 }
 Objects {
-  Id: 111762659481110661
-  Name: "Lobby Start Reset KD"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10277853252493019601
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14905522075498841611
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Lobby Start Reset  Kill Death"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14526000162911636357
-    }
-  }
-}
-Objects {
-  Id: 11438974447693275209
-  Name: "Lobby Start Respawn Players"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10277853252493019601
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13354720253605587128
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Lobby Start Respawn Players"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2381241785780430179
-    }
-  }
-}
-Objects {
-  Id: 13580969729010635234
-  Name: "Lobby Required Players"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10277853252493019601
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 603280979499916857
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Lobby Required Players"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "cs:CountdownTime"
-          Float: 10
-        }
-        Overrides {
-          Name: "cs:RequiredPlayers"
-          Int: 2
-        }
-        Overrides {
-          Name: "CoreProxy.IsAdvanced"
-          Bool: false
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14475701917559091853
-    }
-  }
-}
-Objects {
   Id: 13933786923900731591
   Name: "Game State Display"
   Transform {
@@ -289,53 +374,6 @@ Objects {
     }
     TemplateAsset {
       Id: 4822231965311898406
-    }
-  }
-}
-Objects {
-  Id: 6011254833965092948
-  Name: "Basic Game State Manager"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10277853252493019601
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16086570097188718822
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Basic Game State Manager"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4392520050997934193
     }
   }
 }
