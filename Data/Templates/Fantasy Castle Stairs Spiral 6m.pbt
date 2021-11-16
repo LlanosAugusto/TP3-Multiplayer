@@ -1,13 +1,13 @@
 Assets {
-  Id: 3746777476551959889
-  Name: "Corrugated Sheet Wall 01 Template"
+  Id: 15207744498014044872
+  Name: "Fantasy Castle Stairs Spiral 6m"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 14081811635123324547
+      RootId: 1663700939782003471
       Objects {
-        Id: 14081811635123324547
-        Name: "Corrugated Sheet Wall 01 Template"
+        Id: 1663700939782003471
+        Name: "Fantasy Castle Stairs Spiral 6m"
         Transform {
           Scale {
             X: 1
@@ -16,10 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 5552178176752792768
-        ChildIds: 1798698424492818444
-        ChildIds: 17092674405523212990
-        ChildIds: 17371051595891059687
+        ChildIds: 6256220458519639987
+        ChildIds: 4035657159867406440
+        ChildIds: 16735940366747736205
+        ChildIds: 11096658919104589069
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -34,69 +34,13 @@ Assets {
         }
       }
       Objects {
-        Id: 5552178176752792768
-        Name: "Corrugated Sheet Medium"
+        Id: 6256220458519639987
+        Name: "Fantasy Castle Stairs Spiral 01 - Small 150cm"
         Transform {
           Location {
-            X: 335.591309
-            Y: 19.9311218
-            Z: -5.83789063
           }
           Rotation {
-            Yaw: 2.39208239e-05
-            Roll: -4.37765551
-          }
-          Scale {
-            X: 1.17430151
-            Y: 1.00000024
-            Z: 1.21328902
-          }
-        }
-        ParentId: 14081811635123324547
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.19967365
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5154493427538871909
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 1798698424492818444
-        Name: "Corrugated Sheet Bent"
-        Transform {
-          Location {
-            X: 149.744614
-            Y: 25.0604858
-            Z: 289.317535
-          }
-          Rotation {
-            Pitch: -6.45727396
-            Yaw: 177.645218
-            Roll: -170.140228
+            Yaw: 89.9999847
           }
           Scale {
             X: 1
@@ -104,7 +48,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14081811635123324547
+        ParentId: 1663700939782003471
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -116,7 +60,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6865249745567109080
+            Id: 14823766674395707712
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -131,70 +75,14 @@ Assets {
         }
       }
       Objects {
-        Id: 17092674405523212990
-        Name: "Corrugated Sheet Large"
+        Id: 4035657159867406440
+        Name: "Fantasy Castle Stairs Spiral 01 - Small 150cm"
         Transform {
           Location {
-            X: 25.6308498
-            Y: 19.871912
-            Z: 92.8894653
+            Z: 150
           }
           Rotation {
-            Pitch: -83.363945
-            Yaw: 97.6841583
-            Roll: -93.1423874
-          }
-          Scale {
-            X: 0.746805429
-            Y: 0.746805429
-            Z: 0.618767381
-          }
-        }
-        ParentId: 14081811635123324547
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.907546699
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12598129352734110789
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 17371051595891059687
-        Name: "Corrugated Sheet Tall"
-        Transform {
-          Location {
-            X: 37.4645958
-            Y: 11.4160881
-            Z: -5.51142883
-          }
-          Rotation {
-            Pitch: 0.750808477
-            Yaw: -8.66223431
-            Roll: -0.297454804
+            Yaw: 179.999954
           }
           Scale {
             X: 1
@@ -202,7 +90,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14081811635123324547
+        ParentId: 1663700939782003471
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -214,7 +102,91 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17280976981586363031
+            Id: 14823766674395707712
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 16735940366747736205
+        Name: "Fantasy Castle Stairs Spiral 01 - Small 150cm"
+        Transform {
+          Location {
+            Z: 300
+          }
+          Rotation {
+            Yaw: -89.999939
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1663700939782003471
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14823766674395707712
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 11096658919104589069
+        Name: "Fantasy Castle Stairs Spiral 01 - Small 150cm"
+        Transform {
+          Location {
+            Z: 450
+          }
+          Rotation {
+            Yaw: 4.09811182e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1663700939782003471
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14823766674395707712
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -230,44 +202,17 @@ Assets {
       }
     }
     Assets {
-      Id: 5154493427538871909
-      Name: "Corrugated Sheet Medium"
+      Id: 14823766674395707712
+      Name: "Fantasy Castle Stairs Spiral 01 - Small 150cm"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
-      }
-    }
-    Assets {
-      Id: 6865249745567109080
-      Name: "Corrugated Sheet Bent"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
-      }
-    }
-    Assets {
-      Id: 12598129352734110789
-      Name: "Corrugated Sheet Large"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
-      }
-    }
-    Assets {
-      Id: 17280976981586363031
-      Name: "Corrugated Sheet Tall"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
+        AssetId: "sm_ts_fan_cas_stairs_spiral_001_sm_150cm"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Corrugated_Sheet_Wall_01_Template"
+      AssetId: "Fantasy_Castle_Stairs_Spiral_6m"
     }
   }
   SerializationVersion: 101

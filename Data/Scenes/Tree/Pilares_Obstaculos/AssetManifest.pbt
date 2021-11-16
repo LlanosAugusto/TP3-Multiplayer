@@ -17,6 +17,24 @@ Assets {
   }
 }
 Assets {
+  Id: 8313249461753986611
+  Name: "Metal Grates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_002_uv"
+  }
+}
+Assets {
+  Id: 6756853467189106878
+  Name: "Rusty Riveted Metal"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_rivets_001_uv"
+  }
+}
+Assets {
   Id: 1069021706985628802
   Name: "Main Street Trim 04 Corner"
   PlatformAssetType: 1

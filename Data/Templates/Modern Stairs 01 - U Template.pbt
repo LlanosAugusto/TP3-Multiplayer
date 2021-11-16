@@ -142,7 +142,7 @@ Assets {
         Name: "Modern Stairs Post 01"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
             Y: -10
             Z: 25
           }
@@ -327,7 +327,7 @@ Assets {
           Location {
             X: -10
             Y: -400
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
             Yaw: 89.9999924
@@ -491,7 +491,7 @@ Assets {
         Transform {
           Location {
             X: 190
-            Y: -6.10351562e-05
+            Y: -6.10351563e-05
             Z: 50
           }
           Rotation {
@@ -789,7 +789,7 @@ Assets {
         Transform {
           Location {
             X: -189.999924
-            Y: 0.000122070312
+            Y: 0.000122070313
             Z: 50
           }
           Rotation {
@@ -1027,7 +1027,7 @@ Assets {
         Name: "Modern Stairs Post 01"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
             Y: -10
             Z: 25
           }
@@ -1212,7 +1212,7 @@ Assets {
           Location {
             X: -10
             Y: -400
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
             Yaw: 89.9999924

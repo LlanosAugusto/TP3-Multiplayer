@@ -4448,16 +4448,16 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -309.999969
+      X: -309.999908
       Y: 274.999847
       Z: 1195
     }
     Rotation {
     }
     Scale {
-      X: 4
-      Y: 0.5
-      Z: 0.5
+      X: 3.99999905
+      Y: 0.499999881
+      Z: 0.499999881
     }
   }
   ParentId: 752314020301621030

@@ -472,16 +472,16 @@ Objects {
   Name: "muralla dcentro_Grande"
   Transform {
     Location {
-      X: -1144.00171
+      X: -1144.00122
       Y: -575.272156
     }
     Rotation {
       Yaw: 90.0000076
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.999999702
+      Y: 0.999999702
+      Z: 0.999999702
     }
   }
   ParentId: 5598599831778729808
