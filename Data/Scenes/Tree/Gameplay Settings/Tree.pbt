@@ -586,7 +586,7 @@ Objects {
       WalkSpeed: 640
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
-      JumpMaxCount: 1
+      JumpMaxCount: 2
       JumpVelocity: 900
       GroundFriction: 8
       GravityScale: 1.9
@@ -613,7 +613,6 @@ Objects {
       MountedWalkSpeed: 1500
       MountedJumpMaxCount: 1
       MountedJumpVelocity: 900
-      DismountWhenDamaged: true
       HeadVisibleToSelf: true
       IsSlideEnabled: true
       IsCrouchEnabled: true
@@ -627,7 +626,6 @@ Objects {
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
-      IsMountEnabled: true
       MaxHitpoints: 100
       PlayerMasterVolumeMultiplier: 1
     }

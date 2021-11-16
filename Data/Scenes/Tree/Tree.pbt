@@ -27,12 +27,9 @@ Objects {
   ChildIds: 17430122300085638009
   ChildIds: 6480801831714379134
   ChildIds: 5307787747658003416
-  ChildIds: 12432497440596504687
   ChildIds: 14447501725554885611
-  ChildIds: 6631624599137563292
   ChildIds: 17171540262792576710
   ChildIds: 13166490962351888746
-  ChildIds: 12756465007771043024
   ChildIds: 792383525076813479
   ChildIds: 6937371186128068597
   ChildIds: 16912726399919240356
@@ -56,6 +53,11 @@ Objects {
   ChildIds: 11386801232636513846
   ChildIds: 3764395083131365539
   ChildIds: 12479476371064200953
+  ChildIds: 12128697990637328553
+  ChildIds: 2359642441543205097
+  ChildIds: 12086932877327721247
+  ChildIds: 4496535046070873138
+  ChildIds: 6497578505077788218
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -68,6 +70,236 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6497578505077788218
+  Name: "Shift to Sprint"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9282214366166580901
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shift to Sprint"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2901.80811
+            Y: -2491.82397
+            Z: 49.9999771
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7370033178603767626
+    }
+  }
+}
+Objects {
+  Id: 4496535046070873138
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 1690.35327
+      Y: 640.110107
+      Z: 34.8529816
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 60.1804199
+            Y: -598.202271
+            Z: 1035.30151
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 12086932877327721247
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 1690.35327
+      Y: 640.110107
+      Z: 34.8529816
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 959.404785
+            Y: 1000.08667
+            Z: 34.8529816
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 2359642441543205097
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 2446.19165
+      Y: 1627.8103
+      Z: 34.8529816
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1690.35327
+            Y: 640.110107
+            Z: 34.8529816
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 12128697990637328553
+  Name: "Simple Jump Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2446.19165
+            Y: 1627.8103
+            Z: 34.8529816
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3546652949408796436
+    }
   }
 }
 Objects {
@@ -1098,8 +1330,8 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2450
-      Y: 1400
+      X: 2121.07373
+      Y: 2057.021
       Z: 200
     }
     Rotation {
@@ -1153,8 +1385,8 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2100
-      Y: 1000
+      X: 1982.94263
+      Y: 1165.71826
       Z: 150
     }
     Rotation {
@@ -1263,9 +1495,9 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2700
-      Y: 1725
-      Z: 200
+      X: 2415.55591
+      Y: 1555.28467
+      Z: 199.999878
     }
     Rotation {
     }
@@ -1273,61 +1505,6 @@ Objects {
       X: 1
       Y: 1
       Z: 4.50000095
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18200200076012147990
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 12756465007771043024
-  Name: "Fantasy Castle Pillar 02 - Top"
-  Transform {
-    Location {
-      X: 2675
-      Y: 2050
-      Z: 125
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.75
     }
   }
   ParentId: 4781671109827199097
@@ -1479,61 +1656,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6631624599137563292
-  Name: "Fantasy Castle Pillar 02 - Top"
-  Transform {
-    Location {
-      X: 2275
-      Y: 2350
-      Z: 125
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 4.50000095
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18200200076012147990
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 14447501725554885611
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
@@ -1541,61 +1663,6 @@ Objects {
       X: 2375
       Y: 1850
       Z: 175
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 4.50000095
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18200200076012147990
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 12432497440596504687
-  Name: "Fantasy Castle Pillar 02 - Top"
-  Transform {
-    Location {
-      X: 2100
-      Y: 2025
-      Z: 150
     }
     Rotation {
     }
