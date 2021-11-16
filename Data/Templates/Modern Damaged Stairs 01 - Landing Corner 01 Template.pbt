@@ -142,7 +142,7 @@ Assets {
         Transform {
           Location {
             Y: -400
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
             Yaw: 89.9999542

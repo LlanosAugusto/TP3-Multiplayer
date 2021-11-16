@@ -52,10 +52,13 @@ Objects {
   ChildIds: 11386801232636513846
   ChildIds: 3764395083131365539
   ChildIds: 12479476371064200953
-  ChildIds: 12128697990637328553
   ChildIds: 2359642441543205097
   ChildIds: 6497578505077788218
   ChildIds: 12546159457144500679
+  ChildIds: 18307278737441870513
+  ChildIds: 18330327815973128455
+  ChildIds: 1544636156386026597
+  ChildIds: 9389605168847739839
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -68,6 +71,306 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9389605168847739839
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 2150
+      Y: -3400
+      Z: 1225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 301794710571256999
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -168.712677
+            Y: 732.443237
+            Z: 11.6402588
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.68973136
+            Y: 1.68973136
+            Z: 0.4772048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1150
+            Y: -3575
+            Z: 1225
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.25
+            Y: 2.25
+            Z: 2.25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 1544636156386026597
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 2150
+      Y: -2600
+      Z: 1225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 301794710571256999
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -168.712677
+            Y: 732.443237
+            Z: 11.6402588
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.68973136
+            Y: 1.68973136
+            Z: 0.4772048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2200
+            Y: -3500
+            Z: 1225
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.25
+            Y: 2.25
+            Z: 2.25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 18330327815973128455
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 1150
+      Y: -2600
+      Z: 1225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 301794710571256999
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -168.712677
+            Y: 732.443237
+            Z: 11.6402588
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.68973136
+            Y: 1.68973136
+            Z: 0.4772048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1950
+            Y: -2600
+            Z: 1225
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.25
+            Y: 2.25
+            Z: 2.25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
+  }
+}
+Objects {
+  Id: 18307278737441870513
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 300
+      Y: -1625
+      Z: 1100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 301794710571256999
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -168.712677
+            Y: 732.443237
+            Z: 11.6402588
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.68973136
+            Y: 1.68973136
+            Z: 0.4772048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 950
+            Y: -2600
+            Z: 1225
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.25
+            Y: 2.25
+            Z: 2.25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
   }
 }
 Objects {
@@ -90,6 +393,27 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 301794710571256999
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -168.712677
+            Y: 732.443237
+            Z: 11.6402588
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.68973136
+            Y: 1.68973136
+            Z: 0.4772048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 3782144759917867121
       value {
         Overrides {
@@ -99,14 +423,22 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 51.3495483
-            Y: -707.443237
-            Z: 960.715881
+            X: 300
+            Y: -1625
+            Z: 1100
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.25
+            Y: 2.25
+            Z: 2.25
           }
         }
       }
@@ -201,40 +533,6 @@ Objects {
     }
     TemplateAsset {
       Id: 3376674551313822218
-    }
-  }
-}
-Objects {
-  Id: 12128697990637328553
-  Name: "Simple Jump Pad"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3782144759917867121
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Simple Jump Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2446.19165
-            Y: 1627.8103
-            Z: 34.8529816
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3546652949408796436
     }
   }
 }

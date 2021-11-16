@@ -5,7 +5,7 @@ Objects {
   Name: "Lobby Geometry"
   Transform {
     Location {
-      X: -1249.9613
+      X: -2070
       Y: 6349.6377
     }
     Rotation {
