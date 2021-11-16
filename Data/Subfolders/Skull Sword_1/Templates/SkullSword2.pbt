@@ -1,6 +1,6 @@
 Assets {
   Id: 14981626964144550483
-  Name: "SkullSword1"
+  Name: "SkullSword2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -201,7 +201,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 35
+            Float: 10
           }
           Overrides {
             Name: "cs:Hitbox"

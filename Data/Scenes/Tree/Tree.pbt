@@ -55,6 +55,7 @@ Objects {
   ChildIds: 7819454389284473049
   ChildIds: 11386801232636513846
   ChildIds: 3764395083131365539
+  ChildIds: 12479476371064200953
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -67,6 +68,41 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12479476371064200953
+  Name: "SkullSword2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1433159917167177382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullSword2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 112.05658
+            Y: 272.082886
+            Z: -175.292969
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14981626964144550483
+    }
   }
 }
 Objects {
@@ -2115,9 +2151,13 @@ Objects {
           String: "Starting Weapon"
         }
         Overrides {
-          Name: "cs:EquipmentTemplate"
-          AssetReference {
-            Id: 14981626964144550483
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
