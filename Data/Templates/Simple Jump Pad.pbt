@@ -149,7 +149,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:JumpPower"
-            Int: 5
+            Int: 10
           }
         }
         Collidable_v2 {

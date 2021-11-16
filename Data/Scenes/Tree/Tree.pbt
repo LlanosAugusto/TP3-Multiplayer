@@ -34,7 +34,6 @@ Objects {
   ChildIds: 6937371186128068597
   ChildIds: 16912726399919240356
   ChildIds: 785729541811881560
-  ChildIds: 16851819062075695540
   ChildIds: 10563928506123517641
   ChildIds: 4361962203597598733
   ChildIds: 16901938144693676310
@@ -55,9 +54,8 @@ Objects {
   ChildIds: 12479476371064200953
   ChildIds: 12128697990637328553
   ChildIds: 2359642441543205097
-  ChildIds: 12086932877327721247
-  ChildIds: 4496535046070873138
   ChildIds: 6497578505077788218
+  ChildIds: 12546159457144500679
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -70,6 +68,52 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12546159457144500679
+  Name: "Simple Jump Pad"
+  Transform {
+    Location {
+      X: 1690.35327
+      Y: 640.110107
+      Z: 34.8529816
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3782144759917867121
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Simple Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 51.3495483
+            Y: -707.443237
+            Z: 960.715881
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3376674551313822218
+    }
   }
 }
 Objects {
@@ -103,114 +147,6 @@ Objects {
     }
     TemplateAsset {
       Id: 7370033178603767626
-    }
-  }
-}
-Objects {
-  Id: 4496535046070873138
-  Name: "Simple Jump Pad"
-  Transform {
-    Location {
-      X: 1690.35327
-      Y: 640.110107
-      Z: 34.8529816
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3782144759917867121
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Simple Jump Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 60.1804199
-            Y: -598.202271
-            Z: 1035.30151
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3376674551313822218
-    }
-  }
-}
-Objects {
-  Id: 12086932877327721247
-  Name: "Simple Jump Pad"
-  Transform {
-    Location {
-      X: 1690.35327
-      Y: 640.110107
-      Z: 34.8529816
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3782144759917867121
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Simple Jump Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 959.404785
-            Y: 1000.08667
-            Z: 34.8529816
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3376674551313822218
     }
   }
 }
@@ -730,9 +666,9 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2175
+      X: 2220.61157
       Y: 1725
-      Z: 1250
+      Z: 1001.30774
     }
     Rotation {
     }
@@ -1271,61 +1207,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16851819062075695540
-  Name: "Fantasy Castle Pillar 02 - Top"
-  Transform {
-    Location {
-      X: 2150
-      Y: 1450
-      Z: 150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 4.50000095
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18200200076012147990
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 785729541811881560
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
@@ -1385,9 +1266,9 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 1982.94263
+      X: 1878.04126
       Y: 1165.71826
-      Z: 150
+      Z: 84.0759277
     }
     Rotation {
     }
@@ -1440,8 +1321,8 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 1775
-      Y: 850
+      X: 2128.07349
+      Y: 1113.42407
       Z: 150
     }
     Rotation {
@@ -1495,8 +1376,8 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2415.55591
-      Y: 1555.28467
+      X: 2151.5376
+      Y: 1425.86377
       Z: 199.999878
     }
     Rotation {
@@ -1660,8 +1541,8 @@ Objects {
   Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 2375
-      Y: 1850
+      X: 2287.79858
+      Y: 1738.81885
       Z: 175
     }
     Rotation {
@@ -1771,8 +1652,8 @@ Objects {
   Transform {
     Location {
       X: 1150
-      Y: 875
-      Z: 150
+      Y: 1129.57544
+      Z: 257.880371
     }
     Rotation {
     }
@@ -1937,7 +1818,7 @@ Objects {
     Location {
       X: 1575
       Y: 1125
-      Z: 150
+      Z: 228.922607
     }
     Rotation {
     }

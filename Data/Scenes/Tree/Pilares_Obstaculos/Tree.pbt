@@ -1,12 +1,12 @@
 Name: "Pilares_Obstaculos"
 RootId: 6815634549789164122
 Objects {
-  Id: 10956877872850430149
+  Id: 16778024425324369947
   Name: "Main Street Wall 02 - Corner Trim 02"
   Transform {
     Location {
-      X: 522.222229
-      Y: 540
+      X: 54.7153854
+      Y: 1096.3396
     }
     Rotation {
     }
@@ -391,7 +391,7 @@ Objects {
     Scale {
       X: 7.11111116
       Y: 7.11111116
-      Z: 7.11111116
+      Z: 6.79765368
     }
   }
   ParentId: 6815634549789164122
@@ -445,7 +445,7 @@ Objects {
     Scale {
       X: 7.11111116
       Y: 7.11111116
-      Z: 7.11111116
+      Z: 4.07092047
     }
   }
   ParentId: 6815634549789164122
@@ -653,60 +653,8 @@ Objects {
   Name: "Main Street Wall 02 - Corner Trim 02"
   Transform {
     Location {
-      X: 733.333557
-      Y: 640.000305
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6815634549789164122
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6756853467189106878
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8888986733168944058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13405956000909174220
-  Name: "Main Street Wall 02 - Corner Trim 02"
-  Transform {
-    Location {
+      X: 594.893555
+      Y: 502.286255
     }
     Rotation {
     }
