@@ -234,9 +234,13 @@ Objects {
   }
 }
 Objects {
-  Id: 8466227431337155720
+  Id: 4595357923459834778
   Name: "Health Bar"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -244,6 +248,66 @@ Objects {
     }
   }
   ParentId: 15544222329710426362
+  ChildIds: 13796244286830836667
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ShowNumber"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowMaximum"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowAmmo"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowNumber:tooltip"
+      String: "Show an exact number of hitpoints"
+    }
+    Overrides {
+      Name: "cs:ShowMaximum:tooltip"
+      String: "If showing the health value, this toggles showing the maximum as well"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4595357923459834778
+    SubobjectId: 1675656989204002660
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 13796244286830836667
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4595357923459834778
+  ChildIds: 9213544980395846768
+  ChildIds: 14485408479861179303
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -255,50 +319,347 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1675656989204002660
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Health Bar"
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 13796244286830836667
+    SubobjectId: 10949033122195205957
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+  }
+}
+Objects {
+  Id: 14485408479861179303
+  Name: "Canvas Control"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13796244286830836667
+  ChildIds: 15362620024458286904
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
       }
     }
-    ParameterOverrideMap {
-      key: 5873430187788484635
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.87
-            B: 0.0230464842
-            A: 1
-          }
+  }
+  InstanceHistory {
+    SelfId: 14485408479861179303
+    SubobjectId: 16249654633657571161
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+  }
+}
+Objects {
+  Id: 15362620024458286904
+  Name: "Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14485408479861179303
+  ChildIds: 17967103426808743846
+  ChildIds: 8720729383021466853
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 400
+    Height: 84
+    UIY: -40
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+      Opacity: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
-    TemplateAsset {
-      Id: 13643492470320436681
+  }
+  InstanceHistory {
+    SelfId: 15362620024458286904
+    SubobjectId: 18281836076880200646
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+  }
+}
+Objects {
+  Id: 8720729383021466853
+  Name: "ProgressBar"
+  Transform {
+    Location {
     }
+    Rotation {
+      Yaw: 5.03726405e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15362620024458286904
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 400
+    Height: 20
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        G: 0.87
+        B: 0.0230464842
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+      FillBrush {
+      }
+      BackgroundBrush {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8720729383021466853
+    SubobjectId: 5873430187788484635
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+  }
+}
+Objects {
+  Id: 17967103426808743846
+  Name: "TextBox"
+  Transform {
+    Location {
+      X: -214.259048
+      Y: -409.173462
+      Z: -1242.27026
+    }
+    Rotation {
+      Yaw: 13.4324207
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15362620024458286904
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 44
+    UIY: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "HealthValue"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 14
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17967103426808743846
+    SubobjectId: 15119469979375604568
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
+  }
+}
+Objects {
+  Id: 9213544980395846768
+  Name: "HealthBarControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 7.68395876e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13796244286830836667
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 14633632985083390763
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 4595357923459834778
+      }
+    }
+    Overrides {
+      Name: "cs:TextBox"
+      ObjectReference {
+        SelfId: 17967103426808743846
+      }
+    }
+    Overrides {
+      Name: "cs:ProgressBar"
+      ObjectReference {
+        SelfId: 8720729383021466853
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16221632073795130751
+    }
+  }
+  InstanceHistory {
+    SelfId: 9213544980395846768
+    SubobjectId: 6294284950739744910
+    InstanceId: 8466227431337155720
+    TemplateId: 13643492470320436681
   }
 }
 Objects {

@@ -1,13 +1,13 @@
 Assets {
-  Id: 4415551505100363663
-  Name: "Kill Zone"
+  Id: 12759151385935182667
+  Name: "Generic Bullet"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13648825478633622894
+      RootId: 4791658758445250445
       Objects {
-        Id: 13648825478633622894
-        Name: "Kill Zone"
+        Id: 4791658758445250445
+        Name: "Generic Bullet"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10562065330696862854
-        ChildIds: 13591331349196528036
-        ChildIds: 16145483188601114806
+        ParentId: 4781671109827199097
+        ChildIds: 10801338030236837208
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -34,47 +34,10 @@ Assets {
         }
       }
       Objects {
-        Id: 13591331349196528036
-        Name: "KillTrigger"
+        Id: 10801338030236837208
+        Name: "Client Context"
         Transform {
           Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 700
-            Y: 700
-            Z: 1
-          }
-        }
-        ParentId: 13648825478633622894
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
-        }
-      }
-      Objects {
-        Id: 16145483188601114806
-        Name: "KillZoneServer"
-        Transform {
-          Location {
-            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -84,15 +47,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13648825478633622894
+        ParentId: 4791658758445250445
+        ChildIds: 12411949091338795968
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:KillTrigger"
-            ObjectReference {
-              SubObjectId: 13591331349196528036
-            }
-          }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -102,16 +61,65 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        Script {
-          ScriptAsset {
-            Id: 3908110495107565482
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 12411949091338795968
+        Name: "Bullet"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10801338030236837208
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9826710443425479508
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
           }
         }
       }
     }
+    Assets {
+      Id: 9826710443425479508
+      Name: "Modern Weapon Ammo - Bullet 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_ammo_bullet_tip_001"
+      }
+    }
     PrimaryAssetId {
-      AssetType: "TemplateAssetRef"
-      AssetId: "Kill_Zone"
+      AssetType: "None"
+      AssetId: "None"
     }
   }
   SerializationVersion: 101

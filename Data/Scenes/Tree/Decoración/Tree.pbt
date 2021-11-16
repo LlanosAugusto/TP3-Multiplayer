@@ -52,14 +52,13 @@ Objects {
   Name: "Manticore Logo(Centro)"
   Transform {
     Location {
-      X: 25
-      Y: 100
+      X: -36.1696777
+      Y: -4.99999952
       Z: 2600
     }
     Rotation {
-      Pitch: -29.9999695
-      Yaw: -89.9999695
-      Roll: 89.9999695
+      Pitch: -30
+      Roll: 90
     }
     Scale {
       X: 8.75000191

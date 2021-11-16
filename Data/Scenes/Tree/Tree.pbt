@@ -15,6 +15,7 @@ Objects {
     }
   }
   ChildIds: 5546568129153325318
+  ChildIds: 17550028470757933248
   ChildIds: 4855480006497290740
   ChildIds: 15544222329710426362
   ChildIds: 1832166441183768636
@@ -2092,6 +2093,38 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Settings"
+  }
+}
+Objects {
+  Id: 17550028470757933248
+  Name: "Starting Weapon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16384949596069650507
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Starting Weapon"
+        }
+        Overrides {
+          Name: "cs:EquipmentTemplate"
+          AssetReference {
+            Id: 14981626964144550483
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14634406129909947995
+    }
   }
 }
 Objects {
