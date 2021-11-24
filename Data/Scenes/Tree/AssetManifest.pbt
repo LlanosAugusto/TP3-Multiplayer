@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7402049541292946029
+  Name: "Horse"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Horse"
+  }
+}
+Assets {
   Id: 6756853467189106878
   Name: "Rusty Riveted Metal"
   PlatformAssetType: 2
@@ -32,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve45_005"
+  }
+}
+Assets {
+  Id: 5196377603841433560
+  Name: "BG Gradient 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_020"
   }
 }
 Assets {

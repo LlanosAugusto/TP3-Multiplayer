@@ -513,9 +513,12 @@ Objects {
     RespawnSettings {
       RespawnDelay: 100000
       RespawnMode_v2 {
-        Value: "mc:erespawnmode:random"
+        Value: "mc:erespawnmode:farthestfromenemy"
       }
       StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:farthestfromenemy"
+      }
     }
   }
 }
@@ -626,6 +629,7 @@ Objects {
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
+      IsMountEnabled: true
       MaxHitpoints: 100
       PlayerMasterVolumeMultiplier: 1
     }

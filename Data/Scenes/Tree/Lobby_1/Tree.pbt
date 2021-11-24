@@ -165,7 +165,7 @@ Objects {
   Name: "Geometry"
   Transform {
     Location {
-      X: -800
+      X: 15.3527832
       Y: 400
     }
     Rotation {
@@ -220,8 +220,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 2534.96143
-      Y: -2864.6377
+      X: 2538.47974
+      Y: -2864.34033
       Z: 50
     }
     Rotation {
@@ -292,8 +292,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 1764.96143
-      Y: -1539.6377
+      X: 1785.77222
+      Y: -1559.19897
       Z: 50
     }
     Rotation {
@@ -364,8 +364,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 534.961426
-      Y: -514.637695
+      X: 560.315674
+      Y: -511.882812
       Z: 50
     }
     Rotation {
@@ -652,8 +652,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -6665.03857
-      Y: -3449.6377
+      X: -6729.04297
+      Y: -3451.85791
       Z: 50
     }
     Rotation {
@@ -796,8 +796,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -5905.03857
-      Y: -7269.6377
+      X: -5915.54297
+      Y: -7229.99121
       Z: 50
     }
     Rotation {
@@ -940,9 +940,9 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -3390.03857
-      Y: -9234.6377
-      Z: 50
+      X: -3424.65308
+      Y: -9187.56
+      Z: 49.9996338
     }
     Rotation {
     }
@@ -1156,9 +1156,9 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 2124.96143
-      Y: -7084.6377
-      Z: 50
+      X: 2069.39819
+      Y: -7108.13672
+      Z: 49.9997559
     }
     Rotation {
     }
@@ -1228,8 +1228,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 2809.96143
-      Y: -5659.6377
+      X: 2809.07251
+      Y: -5663.0293
       Z: 50
     }
     Rotation {
